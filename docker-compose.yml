@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    volumes:
+      - ./scraper:/app
+      - ./data:/app/data  # This ensures the data directory is mounted correctly
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - hotel-tracker
+
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #     - /app/.next
+  #   environment:
+  #     - NODE_ENV=development
+  #   networks:
+  #     - hotel-tracker
+  #   depends_on:
+  #     - scraper
+
+networks:
+  hotel-tracker:
+    driver: bridge

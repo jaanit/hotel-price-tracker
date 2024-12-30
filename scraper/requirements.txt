@@ -1,0 +1,11 @@
+jupyter
+notebook
+jupyterlab
+selenium>=4.0.0
+beautifulsoup4
+pandas
+requests
+python-dotenv
+aiohttp
+fake-useragent
+tenacity
