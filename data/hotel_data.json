@@ -1,255 +1,162 @@
-[
-  {
-    "name": "Virgin Hotels New York City",
-    "price": "$279",
-    "rating": "8.3\nVery good (717)\n5 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/67/80/97/leonardo-1070572991-155995551-650267.jpg?width=552&height=552&xhint=1000&yhint=1560&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Virgin-Hotels-New-York-City,New-York-p59560-h1070572991-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
+{
+  "city": "New York",
+  "hotels": [
+    {
+      "hotel_name": "Grand Central Hotel",
+      "location": "42nd Street, Manhattan",
+      "details": "Luxury hotel near Central Park",
+      "review_scores": {
+        "rating": 4.8,
+        "count": 1024
+      },
+      "amenities": ["Wi-Fi", "Pool", "Spa", "Restaurant"],
+      "rooms": [
+        {
+          "room_type": "Deluxe King Room",
+          "price": 350.0,
+          "bed_configuration": "1 King Bed",
+          "cancellation_policy": "Free cancellation within 48 hours",
+          "board_type": "Breakfast included",
+          "special_conditions": ["Non-refundable after 48 hours"]
+        },
+        {
+          "room_type": "Standard Double Room",
+          "price": 200.0,
+          "bed_configuration": "2 Double Beds",
+          "cancellation_policy": "Non-refundable",
+          "board_type": "No meals included",
+          "special_conditions": ["Late check-out available"]
+        }
+      ]
+    },
+    {
+      "hotel_name": "Urban Stay",
+      "location": "Brooklyn Heights",
+      "details": "Modern hotel with city views",
+      "review_scores": {
+        "rating": 4.3,
+        "count": 678
+      },
+      "amenities": ["Wi-Fi", "Fitness Center", "Business Center"],
+      "rooms": [
+        {
+          "room_type": "Queen Room",
+          "price": 150.0,
+          "bed_configuration": "1 Queen Bed",
+          "cancellation_policy": "Free cancellation until 24 hours before check-in",
+          "board_type": "No meals included",
+          "special_conditions": []
+        }
+      ]
+    },
+    {
+      "hotel_name": "Budget Inn",
+      "location": "Harlem",
+      "details": "Affordable lodging in a vibrant area",
+      "review_scores": {
+        "rating": 3.6,
+        "count": 234
+      },
+      "amenities": ["Free Parking", "Wi-Fi"],
+      "rooms": [
+        {
+          "room_type": "Standard Room",
+          "price": 80.0,
+          "bed_configuration": "1 Double Bed",
+          "cancellation_policy": "No cancellation allowed",
+          "board_type": "No meals included",
+          "special_conditions": ["Check-in only after 4 PM"]
+        }
+      ]
+    },
+    {
+      "hotel_name": "Seaside Escape",
+      "location": "Coney Island",
+      "details": "Beachfront hotel with ocean views",
+      "review_scores": {
+        "rating": 4.5,
+        "count": 854
+      },
+      "amenities": ["Wi-Fi", "Pool", "Beach Access", "Bar"],
+      "rooms": [
+        {
+          "room_type": "Oceanfront Suite",
+          "price": 450.0,
+          "bed_configuration": "1 King Bed, 1 Sofa Bed",
+          "cancellation_policy": "Free cancellation within 72 hours",
+          "board_type": "Breakfast and Dinner included",
+          "special_conditions": ["Minimum stay: 2 nights"]
+        }
+      ]
+    },
+    {
+      "hotel_name": "Airport Express Hotel",
+      "location": "JFK Airport Area",
+      "details": "Convenient for layovers and travelers",
+      "review_scores": {
+        "rating": 4.0,
+        "count": 512
+      },
+      "amenities": ["Wi-Fi", "Airport Shuttle", "Breakfast"],
+      "rooms": [
+        {
+          "room_type": "Economy Room",
+          "price": 120.0,
+          "bed_configuration": "1 Double Bed",
+          "cancellation_policy": "Non-refundable",
+          "board_type": "Breakfast included",
+          "special_conditions": ["Early check-in available"]
+        }
+      ]
+    },
+    {
+      "hotel_name": "The Historic Lodge",
+      "location": "Soho",
+      "details": "Charming boutique hotel",
+      "review_scores": {
+        "rating": 4.7,
+        "count": 389
+      },
+      "amenities": ["Wi-Fi", "Rooftop Bar", "Free Breakfast"],
+      "rooms": [
+        {
+          "room_type": "Classic Room",
+          "price": 180.0,
+          "bed_configuration": "1 Queen Bed",
+          "cancellation_policy": "Free cancellation within 48 hours",
+          "board_type": "Breakfast included",
+          "special_conditions": []
+        }
+      ]
+    },
+    {
+      "hotel_name": "TechHub Hotel",
+      "location": "Silicon Alley",
+      "details": "Perfect for business travelers",
+      "review_scores": {
+        "rating": 4.2,
+        "count": 276
+      },
+      "amenities": ["Wi-Fi", "Business Lounge", "Gym"],
+      "rooms": [
+        {
+          "room_type": "Single Business Room",
+          "price": 220.0,
+          "bed_configuration": "1 Twin Bed",
+          "cancellation_policy": "Free cancellation within 24 hours",
+          "board_type": "No meals included",
+          "special_conditions": ["Access to business lounge included"]
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current_page": 1,
+    "total_pages": 1
   },
-  {
-    "name": "NH Collection New York Madison Avenue",
-    "price": "$178",
-    "rating": "8.3\nVery good (1914)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/aa/10/40/ice-76443-72178713_3XL-943160.jpg?width=552&height=552&xhint=1555&yhint=961&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/NH-Collection-New-York-Madison-Avenue,New-York-p59560-h34847-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "The Gotham Hotel",
-    "price": "$181",
-    "rating": "8.4\nVery good (1624)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/df/ea/5b/expediav2-384574-004106-131104.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Gotham-Hotel,New-York-p59560-h384574-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "DoubleTree by Hilton New York Times Square South",
-    "price": "$157",
-    "rating": "8.0\nVery good (3018)\n3 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/ec/91/c4/ice-1070003421-100546471-697619.jpg?width=552&height=552&xhint=1554&yhint=960&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/DoubleTree-by-Hilton-New-York-Times-Square-South,New-York-p59560-h1070003421-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "Hotel Belleclaire",
-    "price": "$127",
-    "rating": "8.1\nVery good (5433)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/4d/23/d9/leonardo-35069-176398995-327978.jpg?width=552&height=552&xhint=1344&yhint=750&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Hotel-Belleclaire,New-York-p59560-h35069-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free breakfast"
-   
-  },
-  {
-    "name": "Hyatt Place New York Midtown South",
-    "price": "$154",
-    "rating": "8.3\nVery good (5875)\n3 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/7b/1c/57/ice-492804-114494222-707629.jpg?width=552&height=552&xhint=1497&yhint=960&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Hyatt-Place-New-York-Midtown-South,New-York-p59560-h492804-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free breakfast"
-  },
-  {
-    "name": "Renaissance New York Harlem Hotel",
-    "price": "$125",
-    "rating": "8.1\nVery good (437)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/2f/d2/b1/leonardo-1070693309-168808253-619705.jpg?width=552&height=552&xhint=1500&yhint=1000&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Renaissance-New-York-Harlem-Hotel,New-York-p59560-h1070693309-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "Artezen Hotel",
-    "price": "$153",
-    "rating": "9.1\nWonderful (1225)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/4c/1f/dd/expedia_group-3698963-ae9d1add-946675.jpg?width=552&height=552&xhint=1080&yhint=666&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Artezen-Hotel,New-York-p59560-h3698963-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Untitled at 3 Freeman Alley",
-    "price": "$175",
-    "rating": "8.5\nVery good (257)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/6f/ab/e6/expedia_group-9658979-758e39-993031.jpg?width=552&height=552&xhint=480&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Untitled-at-3-Freeman-Alley,New-York-p59560-h9658979-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free breakfast"
-  },
-  {
-    "name": "The Jewel Hotel, New York",
-    "price": "$172",
-    "rating": "8.6\nVery good (2868)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/a1/03/df/leonardo-352823-182081581-357685.jpg?width=552&height=552&xhint=1500&yhint=1000&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Jewel-Hotel,New-York,New-York-p59560-h352823-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "Luma Hotel - Times Square",
-    "price": "$217",
-    "rating": "9.0\nWonderful (4670)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/82/25/bd/expedia_group-2677614-bca3c6-848720.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Luma-Hotel,Times-Square,New-York-p59560-h2677614-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "The Standard High Line",
-    "price": "$315",
-    "rating": "8.0\nVery good (3243)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/c3/f2/88/leonardo-1153331-standard-hotel-high-line-guest-rooms-corner-view_O-570050.jpg?width=552&height=552&xhint=832&yhint=540&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Standard-High-Line,New-York-p59560-h208111-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Hyatt Centric Times Square New York",
-    "price": "$225",
-    "rating": "8.4\nVery good (4193)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/fd/fd/d0/ice-561844-107573232-925584.jpg?width=552&height=552&xhint=1554&yhint=960&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Hyatt-Centric-Times-Square-New-York,New-York-p59560-h561844-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "The Luxury Collection Hotel Manhattan Midtown",
-    "price": "$252",
-    "rating": "8.2\nVery good (1164)\n5 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/kimg/6c/ce/f5094096-5e17a12d-5.jpg?width=552&height=552&xhint=1373&yhint=916&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Luxury-Collection-Hotel-Manhattan-Midtown,New-York-p59560-h44267-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Civilian Hotel",
-    "price": "$165",
-    "rating": "8.6\nVery good (2014)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/f2/76/93/ice-1070307194-123530694-808527.jpg?width=552&height=552&xhint=728&yhint=466&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Civilian-Hotel,New-York-p59560-h1070307194-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "The Pierre, A Taj Hotel, New York",
-    "price": "$447",
-    "rating": "8.5\nVery good (1051)\n5 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/c8/9d/19/leonardo-2724959-Photo_Dec_30_3_21_19_PM_O-144915.jpg?width=552&height=552&xhint=1031&yhint=1560&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Pierre,A-Taj-Hotel,New-York,New-York-p59560-h18497-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Romer Hell's Kitchen",
-    "price": "$166",
-    "rating": "8.6\nVery good (4000)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/bd/7d/c5/leonardo-32467-166609469-296050.jpg?width=552&height=552&xhint=1500&yhint=1159&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Romer-Hells-Kitchen,New-York-p59560-h32467-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "MOXY NYC Times Square",
-    "price": "$108",
-    "rating": "8.1\nVery good (6753)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/f1/ab/cb/leonardo-881415-155919989-112389.jpg?width=552&height=552&xhint=1620&yhint=1000&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/MOXY-NYC-Times-Square,New-York-p59560-h881415-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "The Marlton Hotel",
-    "price": "$322",
-    "rating": "8.3\nVery good (1884)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/b3/8f/96/ice-125499-photo.aspx_did=2692_brochureid=125499_publicid=62301152_instanceid=2_resizing=4K-419824.jpg?width=552&height=552&xhint=672&yhint=378&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Marlton-Hotel,New-York-p59560-h2011137-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free breakfast"
-  },
-  {
-    "name": "World Center Hotel",
-    "price": "$108",
-    "rating": "8.2\nVery good (5137)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/ef/75/c0/leonardo-1200637-Lobby_CQ_WorldTrade_20015_O-113995.jpg?width=552&height=552&xhint=1620&yhint=1000&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/World-Center-Hotel,New-York-p59560-h335105-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free cancellation"
-  },
-  {
-    "name": "Warwick New York",
-    "price": "$181",
-    "rating": "8.1\nVery good (6185)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/a2/ac/ee/expediav2-32422-4ece36-998727.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Warwick-New-York,New-York-p59560-h32422-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Hotel Riu Plaza New York Times Square",
-    "price": "$204",
-    "rating": "8.5\nVery good (7410)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/ce/db/53/expedia_group-2354469-ebc2d2-953119.jpg?width=552&height=552&xhint=960&yhint=666&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Hotel-Riu-Plaza-New-York-Times-Square,New-York-p59560-h2354469-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "Free breakfast"
-  },
-  {
-    "name": "1 Hotel Central Park",
-    "price": "$439",
-    "rating": "8.4\nVery good (1305)\n5 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/ba/9b/4e/leonardo-2232279-182972488-639777.jpg?width=552&height=552&xhint=1560&yhint=1031&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/1-Hotel-Central-Park,New-York-p59560-h2232279-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Broadway Plaza Hotel",
-    "price": "$144",
-    "rating": "8.8\nVery good (1539)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/7f/03/7a/leonardo-2724948-SUPK1_-_1102-002_O-995374.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Broadway-Plaza-Hotel,New-York-p59560-h31619-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Sonder at The Nash",
-    "price": "$121",
-    "rating": "7.5\nGood (136)",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/ac/3b/77/expedia_group-3310253-60336982-804899.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Sonder-at-The-Nash,New-York-p59560-h3310253-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "The Langham, New York, Fifth Avenue",
-    "price": "$531",
-    "rating": "9.2\nWonderful (1265)\n5 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/8c/60/12/expedia_group-341920-104600680-880204.jpg?width=552&height=552&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/The-Langham,New-York,Fifth-Avenue,New-York-p59560-h341920-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Archer Hotel New York",
-    "price": "$258",
-    "rating": "8.6\nVery good (2216)\n4 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/kimg/36/0d/f3b08de3-160560bb7ca.jpg?width=552&height=552&xhint=480&yhint=320&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Archer-Hotel-New-York,New-York-p59560-h725253-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
-  },
-  {
-    "name": "Motto by Hilton New York City Times Square",
-    "price": "$100",
-    "rating": "8.1\nVery good (501)\n3 stars",
-    "location": "Manhattan",
-    "image_url": "https://content.r9cdn.net/rimg/himg/d4/9e/5a/ice-1070714341-109334574-885984.jpg?width=552&height=552&xhint=1555&yhint=960&crop=true&watermarkheight=28&watermarkpadding=10",
-    "hotel_link": "https://www.kayak.com/hotels/Motto-by-Hilton-New-York-City-Times-Square,New-York-p59560-h1070714341-details/2025-02-10/2025-02-14/2adults?psid=ePFEOR0D7n&pm=daybase#overview",
-    "amenities": "N/A"
+  "metadata": {
+    "scraping_date": "2024-12-30",
+    "scraping_time": "14:00",
+    "source_url": "https://www.kayak.com"
   }
-]
+}
