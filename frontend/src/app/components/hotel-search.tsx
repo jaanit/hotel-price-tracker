@@ -27,7 +27,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Badge } from "@/components/ui/badge"
 import { motion, AnimatePresence } from 'framer-motion'
 
-import hotelData from '../../../../data/hotel_data.json'
+import hotelData from '../../../../scraper/notebooks/data/hotel_data.json'
 
 const amenityIcons = {
   wifi: <Wifi className="h-4 w-4" />,

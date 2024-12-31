@@ -1,6 +1,6 @@
-jupyter>=1.0.0
-notebook>=6.4.12
-jupyterlab>=3.4.4
+jupyter==1.0.0
+jupyterlab==4.0.9
+notebook>=7.0.6
 selenium>=4.0.0
 beautifulsoup4>=4.9.3
 pandas>=1.4.3
@@ -12,3 +12,6 @@ tenacity>=8.0.1
 webdriver-manager>=3.8.3
 lxml>=4.9.1
 html5lib>=1.1
+jupyter_server>=2.0.0
+ipykernel>=6.0.0
+jupyterlab_widgets>=3.0.0

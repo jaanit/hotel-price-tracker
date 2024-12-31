@@ -1,62 +1,47 @@
 .
+├── Hotel Price Tracker Technical Assignment - Kayak.pdf
+├── README.md
 ├── data
-│   └── hotel_data.json
 ├── docker-compose.yml
 ├── frontend
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── components.json
-│   ├── eslint.config.mjs
-│   ├── next-env.d.ts
-│   ├── next.config.ts
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.mjs
-│   ├── public
-│   │   ├── file.svg
-│   │   ├── globe.svg
-│   │   ├── next.svg
-│   │   ├── vercel.svg
-│   │   └── window.svg
-│   ├── src
-│   │   ├── app
-│   │   │   ├── components
-│   │   │   │   ├── featured-destinations.tsx
-│   │   │   │   ├── footer.tsx
-│   │   │   │   ├── header.tsx
-│   │   │   │   ├── hotel-search.tsx
-│   │   │   │   └── newsletter.tsx
-│   │   │   ├── favicon.ico
-│   │   │   ├── globals.css
-│   │   │   ├── layout.tsx
-│   │   │   └── page.tsx
-│   │   ├── components
-│   │   │   ├── ui
-│   │   │   │   ├── badge.tsx
-│   │   │   │   ├── button.tsx
-│   │   │   │   ├── card.tsx
-│   │   │   │   ├── input.tsx
-│   │   │   │   ├── navigation-menu.tsx
-│   │   │   │   ├── scroll-area.tsx
-│   │   │   │   ├── select.tsx
-│   │   │   │   ├── separator.tsx
-│   │   │   │   └── tooltip.tsx
-│   │   │   └── walid_belfatmi_resume.pdf
-│   │   ├── data
-│   │   │   └── hotel_data.json
-│   │   └── lib
-│   │       └── utils.ts
-│   ├── tailwind.config.ts
-│   └── tsconfig.json
+├── hotel-detail-page.html
+├── pagination-component.html
 ├── project_structure.md
-└── scraper
-    ├── Dockerfile
-    ├── data
-    ├── notebooks
-    │   ├── hotel_scraper.ipynb
-    │   └── scraper_test.ipynb
-    ├── requirements.txt
-    └── src
-        └── hotel_scraper.py
+├── scraper
+│   ├── Dockerfile
+│   ├── data
+│   ├── notebooks
+│   │   ├── scraper.log
+│   │   └── scraper_test.ipynb
+│   ├── requirements.txt
+│   ├── src
+│   │   ├── __init__.py
+│   │   ├── config
+│   │   │   ├── __init__.py
+│   │   │   └── settings.py
+│   │   ├── core
+│   │   │   ├── __init__.py
+│   │   │   ├── driver.py
+│   │   │   └── logger.py
+│   │   ├── extractors
+│   │   │   ├── __init__.py
+│   │   │   ├── amenities.py
+│   │   │   ├── basic_info.py
+│   │   │   ├── policies.py
+│   │   │   ├── price.py
+│   │   │   └── room.py
+│   │   ├── scrapers
+│   │   │   ├── __init__.py
+│   │   │   └── kayak.py
+│   │   └── utils
+│   │       ├── __init__.py
+│   │       ├── retry.py
+│   │       └── selectors.py
+│   └── tests
+│       ├── __init__.py
+│       └── test_scrapers
+│           ├── __init__.py
+│           └── test_kayak_scraper.py
+└── search-hotel-component.html
 
-15 directories, 45 files
+22 directories, 67 files

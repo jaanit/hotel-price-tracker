@@ -6,14 +6,17 @@ services:
       context: ./scraper
       dockerfile: Dockerfile
     volumes:
-      - ./scraper:/app
-      - ./data:/app/data
+      - ./scraper:/app  # Main application code
+      - ./data:/app/data  # Shared data directory
+      - ./scraper/notebooks:/app/notebooks  # Notebooks directory
+      - scraper_venv:/app/venv  # Virtual environment persistence
     ports:
       - "8888:8888"
     environment:
       - PYTHONUNBUFFERED=1
-      - JUPYTER_TOKEN=""  # Empty token for easier access
+      - JUPYTER_TOKEN=""
       - JUPYTER_CONFIG_DIR=/app/.jupyter
+      - PYTHONPATH=/app
     networks:
       - hotel-tracker
     deploy:
@@ -25,9 +28,17 @@ services:
     command: >
       bash -c "
         mkdir -p /app/.jupyter &&
-        echo 'c.ServerApp.terminado_settings={\"shell_command\": [\"/bin/bash\"]}' > /app/.jupyter/jupyter_server_config.py &&
-        jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.token='' --NotebookApp.password=''"
+        echo 'c.ServerApp.token = \"\"' > /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.password = \"\"' >> /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.allow_root = True' >> /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.ip = \"0.0.0.0\"' >> /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.notebook_dir = \"/app/notebooks\"' >> /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.autoreload = True' >> /app/.jupyter/jupyter_server_config.py &&
+        echo 'c.ServerApp.watch = True' >> /app/.jupyter/jupyter_server_config.py &&
+        jupyter lab --allow-root --ip=0.0.0.0 --port=8888 --no-browser --watch"
 
+volumes:
+  scraper_venv:  # Named volume for virtual environment
 
   # frontend:
   #   build:

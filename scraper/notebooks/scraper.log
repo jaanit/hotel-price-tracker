@@ -1,0 +1,1171 @@
+2024-12-30 21:45:45,874 [INFO] WebDriver initialized successfully
+2024-12-30 21:45:45,878 [INFO] Loading URL: https://www.kayak.com/hotels/Errachidia/2adults/2025-01-10/2025-01-14?sort=rank_a
+2024-12-30 21:46:08,528 [INFO] Page loaded successfully
+2024-12-30 21:46:18,569 [ERROR] No hotel elements found
+2024-12-30 21:46:18,732 [INFO] WebDriver closed successfully
+2024-12-30 21:59:57,403 [INFO] WebDriver initialized successfully
+2024-12-30 21:59:57,414 [INFO] Loading URL: https://www.kayak.com/hotels/Errachidia/2adults/2025-01-10/2025-01-14?sort=rank_a
+2024-12-30 22:00:21,644 [ERROR] Error loading page: Message: 
+Stacktrace:
+#0 0x5651403eedbe <unknown>
+#1 0x56513ff1206b <unknown>
+#2 0x56513ff59160 <unknown>
+#3 0x56513ff59241 <unknown>
+#4 0x56513ff9f634 <unknown>
+#5 0x56513ff80b0d <unknown>
+#6 0x56513ff9d63e <unknown>
+#7 0x56513ff80863 <unknown>
+#8 0x56513ff4d517 <unknown>
+#9 0x56513ff4e2b2 <unknown>
+#10 0x5651403c25ba <unknown>
+#11 0x5651403c596e <unknown>
+#12 0x5651403c53e8 <unknown>
+#13 0x5651403c5df5 <unknown>
+#14 0x5651403b2f92 <unknown>
+#15 0x5651403c6161 <unknown>
+#16 0x56514039be39 <unknown>
+#17 0x5651403dedb5 <unknown>
+#18 0x5651403def9b <unknown>
+#19 0x5651403edf15 <unknown>
+#20 0x7fca8671f1c4 <unknown>
+
+2024-12-30 22:00:21,858 [INFO] WebDriver closed successfully
+2024-12-30 22:16:06,981 [INFO] WebDriver initialized successfully
+2024-12-30 22:16:07,025 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-30 22:17:12,335 [INFO] Page loaded successfully
+2024-12-30 22:17:12,423 [INFO] Found hotels using selector: div[class*='yuAt-pres-rounded']
+2024-12-30 22:17:12,426 [INFO] Found 28 hotels
+2024-12-30 22:17:12,451 [INFO] Processing first 5 hotels
+2024-12-30 22:17:12,456 [INFO] Processing hotel 1/5
+2024-12-30 22:17:12,598 [ERROR] Error extracting hotel info: 'WebElement' object has no attribute 'find_element_by_xpath'
+2024-12-30 22:17:14,364 [INFO] Processing hotel 2/5
+2024-12-30 22:17:14,443 [ERROR] Error extracting hotel info: 'WebElement' object has no attribute 'find_element_by_xpath'
+2024-12-30 22:17:16,002 [INFO] Processing hotel 3/5
+2024-12-30 22:17:16,075 [ERROR] Error extracting hotel info: 'WebElement' object has no attribute 'find_element_by_xpath'
+2024-12-30 22:17:17,645 [INFO] Processing hotel 4/5
+2024-12-30 22:17:17,710 [ERROR] Error extracting hotel info: 'WebElement' object has no attribute 'find_element_by_xpath'
+2024-12-30 22:17:18,769 [INFO] Processing hotel 5/5
+2024-12-30 22:17:18,837 [ERROR] Error extracting hotel info: 'WebElement' object has no attribute 'find_element_by_xpath'
+2024-12-30 22:17:19,875 [INFO] Successfully processed 0 hotels
+2024-12-30 22:17:20,176 [INFO] WebDriver closed successfully
+2024-12-30 22:35:18,278 [INFO] WebDriver initialized successfully
+2024-12-30 22:35:18,301 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-30 22:36:10,903 [INFO] Page loaded successfully
+2024-12-30 22:36:10,951 [INFO] Found hotels using selector: div[class*='yuAt-pres-rounded']
+2024-12-30 22:36:10,953 [INFO] Found 28 hotels
+2024-12-30 22:36:10,956 [INFO] Processing first 5 hotels
+2024-12-30 22:36:10,957 [INFO] Processing hotel 1/5
+2024-12-30 22:36:11,467 [INFO] Successfully extracted basic info for: Kasbah Hotel Camping Jurassique
+2024-12-30 22:36:11,469 [INFO] Fetching details from: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejFEB3Qh1n&pm=daybase#overview
+2024-12-30 22:36:11,472 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejFEB3Qh1n&pm=daybase#overview
+2024-12-30 22:37:02,862 [WARNING] Timeout waiting for hotel container, retrying...
+2024-12-30 22:37:02,885 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejFEB3Qh1n&pm=daybase#overview
+2024-12-30 22:37:51,741 [WARNING] Timeout waiting for hotel container, retrying...
+2024-12-30 22:37:51,865 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejFEB3Qh1n&pm=daybase#overview
+2024-12-30 22:38:40,704 [WARNING] Timeout waiting for hotel container, retrying...
+2024-12-30 22:38:42,210 [INFO] Processing hotel 2/5
+2024-12-30 22:38:42,239 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557332d4bdbe <unknown>
+#1 0x55733286f06b <unknown>
+#2 0x55733287f124 <unknown>
+#3 0x55733287e0ac <unknown>
+#4 0x55733287f2b9 <unknown>
+#5 0x557332875027 <unknown>
+#6 0x55733287416e <unknown>
+#7 0x5573328769db <unknown>
+#8 0x557332876aa1 <unknown>
+#9 0x5573328b5ba8 <unknown>
+#10 0x5573328b6241 <unknown>
+#11 0x5573328ac836 <unknown>
+#12 0x5573328ddb0d <unknown>
+#13 0x5573328ac74e <unknown>
+#14 0x5573328ddc6e <unknown>
+#15 0x5573328fa63e <unknown>
+#16 0x5573328dd863 <unknown>
+#17 0x5573328aa517 <unknown>
+#18 0x5573328ab2b2 <unknown>
+#19 0x557332d1f5ba <unknown>
+#20 0x557332d2296e <unknown>
+#21 0x557332d223e8 <unknown>
+#22 0x557332d22df5 <unknown>
+#23 0x557332d0ff92 <unknown>
+#24 0x557332d23161 <unknown>
+#25 0x557332cf8e39 <unknown>
+#26 0x557332d3bdb5 <unknown>
+#27 0x557332d3bf9b <unknown>
+#28 0x557332d4af15 <unknown>
+#29 0x7f16c31c91c4 <unknown>
+
+2024-12-30 22:38:43,526 [INFO] Processing hotel 3/5
+2024-12-30 22:38:43,549 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557332d4bdbe <unknown>
+#1 0x55733286f06b <unknown>
+#2 0x55733287f124 <unknown>
+#3 0x55733287e0ac <unknown>
+#4 0x55733287f2b9 <unknown>
+#5 0x557332875027 <unknown>
+#6 0x55733287416e <unknown>
+#7 0x5573328769db <unknown>
+#8 0x557332876aa1 <unknown>
+#9 0x5573328b5ba8 <unknown>
+#10 0x5573328b6241 <unknown>
+#11 0x5573328ac836 <unknown>
+#12 0x5573328ddb0d <unknown>
+#13 0x5573328ac74e <unknown>
+#14 0x5573328ddc6e <unknown>
+#15 0x5573328fa63e <unknown>
+#16 0x5573328dd863 <unknown>
+#17 0x5573328aa517 <unknown>
+#18 0x5573328ab2b2 <unknown>
+#19 0x557332d1f5ba <unknown>
+#20 0x557332d2296e <unknown>
+#21 0x557332d223e8 <unknown>
+#22 0x557332d22df5 <unknown>
+#23 0x557332d0ff92 <unknown>
+#24 0x557332d23161 <unknown>
+#25 0x557332cf8e39 <unknown>
+#26 0x557332d3bdb5 <unknown>
+#27 0x557332d3bf9b <unknown>
+#28 0x557332d4af15 <unknown>
+#29 0x7f16c31c91c4 <unknown>
+
+2024-12-30 22:38:45,151 [INFO] Processing hotel 4/5
+2024-12-30 22:38:45,182 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557332d4bdbe <unknown>
+#1 0x55733286f06b <unknown>
+#2 0x55733287f124 <unknown>
+#3 0x55733287e0ac <unknown>
+#4 0x55733287f2b9 <unknown>
+#5 0x557332875027 <unknown>
+#6 0x55733287416e <unknown>
+#7 0x5573328769db <unknown>
+#8 0x557332876aa1 <unknown>
+#9 0x5573328b5ba8 <unknown>
+#10 0x5573328b6241 <unknown>
+#11 0x5573328ac836 <unknown>
+#12 0x5573328ddb0d <unknown>
+#13 0x5573328ac74e <unknown>
+#14 0x5573328ddc6e <unknown>
+#15 0x5573328fa63e <unknown>
+#16 0x5573328dd863 <unknown>
+#17 0x5573328aa517 <unknown>
+#18 0x5573328ab2b2 <unknown>
+#19 0x557332d1f5ba <unknown>
+#20 0x557332d2296e <unknown>
+#21 0x557332d223e8 <unknown>
+#22 0x557332d22df5 <unknown>
+#23 0x557332d0ff92 <unknown>
+#24 0x557332d23161 <unknown>
+#25 0x557332cf8e39 <unknown>
+#26 0x557332d3bdb5 <unknown>
+#27 0x557332d3bf9b <unknown>
+#28 0x557332d4af15 <unknown>
+#29 0x7f16c31c91c4 <unknown>
+
+2024-12-30 22:38:47,063 [INFO] Processing hotel 5/5
+2024-12-30 22:38:47,087 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557332d4bdbe <unknown>
+#1 0x55733286f06b <unknown>
+#2 0x55733287f124 <unknown>
+#3 0x55733287e0ac <unknown>
+#4 0x55733287f2b9 <unknown>
+#5 0x557332875027 <unknown>
+#6 0x55733287416e <unknown>
+#7 0x5573328769db <unknown>
+#8 0x557332876aa1 <unknown>
+#9 0x5573328b5ba8 <unknown>
+#10 0x5573328b6241 <unknown>
+#11 0x5573328ac836 <unknown>
+#12 0x5573328ddb0d <unknown>
+#13 0x5573328ac74e <unknown>
+#14 0x5573328ddc6e <unknown>
+#15 0x5573328fa63e <unknown>
+#16 0x5573328dd863 <unknown>
+#17 0x5573328aa517 <unknown>
+#18 0x5573328ab2b2 <unknown>
+#19 0x557332d1f5ba <unknown>
+#20 0x557332d2296e <unknown>
+#21 0x557332d223e8 <unknown>
+#22 0x557332d22df5 <unknown>
+#23 0x557332d0ff92 <unknown>
+#24 0x557332d23161 <unknown>
+#25 0x557332cf8e39 <unknown>
+#26 0x557332d3bdb5 <unknown>
+#27 0x557332d3bf9b <unknown>
+#28 0x557332d4af15 <unknown>
+#29 0x7f16c31c91c4 <unknown>
+
+2024-12-30 22:38:48,521 [INFO] Successfully processed 0 hotels
+2024-12-30 22:38:49,805 [INFO] WebDriver closed successfully
+2024-12-31 09:37:21,197 [INFO] WebDriver initialized successfully
+2024-12-31 09:37:21,259 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 09:37:59,761 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 09:38:42,843 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 09:39:15,341 [ERROR] Error in scrape_hotels: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_any_elements_located'
+2024-12-31 09:39:15,566 [INFO] WebDriver closed successfully
+2024-12-31 10:03:12,661 [INFO] WebDriver initialized successfully
+2024-12-31 10:03:12,741 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:04:13,268 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:05:08,311 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:05:48,330 [ERROR] Error in scrape_hotels: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_any_elements_located'
+2024-12-31 10:05:50,305 [INFO] WebDriver closed successfully
+2024-12-31 10:28:25,563 [INFO] WebDriver initialized successfully
+2024-12-31 10:28:25,712 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:29:07,549 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:29:52,364 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:30:25,910 [ERROR] Error in scrape_hotels: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_any_elements_located'
+2024-12-31 10:30:26,145 [INFO] WebDriver closed successfully
+2024-12-31 10:36:03,361 [INFO] WebDriver initialized successfully
+2024-12-31 10:36:03,377 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:36:42,260 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:37:27,271 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 10:37:49,484 [INFO] WebDriver closed successfully
+2024-12-31 11:02:29,721 [INFO] WebDriver initialized successfully
+2024-12-31 11:02:29,738 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:03:36,760 [INFO] Found 28 hotels
+2024-12-31 11:03:49,582 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:03:50,168 [INFO] WebDriver closed successfully
+2024-12-31 11:05:20,225 [INFO] WebDriver initialized successfully
+2024-12-31 11:05:20,246 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:05:56,175 [INFO] Found 28 hotels
+2024-12-31 11:06:07,788 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:06:07,956 [INFO] WebDriver closed successfully
+2024-12-31 11:12:49,053 [INFO] WebDriver initialized successfully
+2024-12-31 11:12:49,071 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:13:20,606 [INFO] Found 28 hotels
+2024-12-31 11:13:32,644 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:13:32,812 [INFO] WebDriver closed successfully
+2024-12-31 11:14:29,280 [INFO] WebDriver initialized successfully
+2024-12-31 11:14:29,408 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:15:05,388 [INFO] Found 28 hotels
+2024-12-31 11:15:16,992 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:15:17,234 [INFO] WebDriver closed successfully
+2024-12-31 11:20:20,655 [INFO] WebDriver initialized successfully
+2024-12-31 11:20:20,677 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:20:53,896 [INFO] Found 28 hotels
+2024-12-31 11:21:04,490 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:21:04,636 [INFO] WebDriver closed successfully
+2024-12-31 11:26:01,039 [INFO] WebDriver initialized successfully
+2024-12-31 11:26:01,048 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:26:34,279 [INFO] Found 28 hotels
+2024-12-31 11:26:45,287 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:26:45,424 [INFO] WebDriver closed successfully
+2024-12-31 11:36:35,898 [INFO] WebDriver initialized successfully
+2024-12-31 11:36:35,953 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:37:35,738 [INFO] Found 28 hotels
+2024-12-31 11:37:36,653 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNFEAyDAKB&pm=daybase#overview
+2024-12-31 11:37:36,659 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNFEAyDAKB&pm=daybase#overview
+2024-12-31 11:38:09,701 [INFO] Found 2 room elements
+2024-12-31 11:38:10,952 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 11:38:12,527 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 11:38:12,531 [INFO] Found 2 room types
+2024-12-31 11:38:23,857 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55b24f368dbe <unknown>
+#1 0x55b24ee8c06b <unknown>
+#2 0x55b24ee9c124 <unknown>
+#3 0x55b24ee9b0ac <unknown>
+#4 0x55b24ee9c2b9 <unknown>
+#5 0x55b24ee92027 <unknown>
+#6 0x55b24ee9116e <unknown>
+#7 0x55b24ee939db <unknown>
+#8 0x55b24ee93aa1 <unknown>
+#9 0x55b24eed2ba8 <unknown>
+#10 0x55b24eed3241 <unknown>
+#11 0x55b24eec9836 <unknown>
+#12 0x55b24eefab0d <unknown>
+#13 0x55b24eec974e <unknown>
+#14 0x55b24eefac6e <unknown>
+#15 0x55b24ef1763e <unknown>
+#16 0x55b24eefa863 <unknown>
+#17 0x55b24eec7517 <unknown>
+#18 0x55b24eec82b2 <unknown>
+#19 0x55b24f33c5ba <unknown>
+#20 0x55b24f33f96e <unknown>
+#21 0x55b24f33f3e8 <unknown>
+#22 0x55b24f33fdf5 <unknown>
+#23 0x55b24f32cf92 <unknown>
+#24 0x55b24f340161 <unknown>
+#25 0x55b24f315e39 <unknown>
+#26 0x55b24f358db5 <unknown>
+#27 0x55b24f358f9b <unknown>
+#28 0x55b24f367f15 <unknown>
+#29 0x7f8be72f71c4 <unknown>
+
+2024-12-31 11:38:25,767 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55b24f368dbe <unknown>
+#1 0x55b24ee8c06b <unknown>
+#2 0x55b24ee9c124 <unknown>
+#3 0x55b24ee9b0ac <unknown>
+#4 0x55b24ee9c2b9 <unknown>
+#5 0x55b24ee92027 <unknown>
+#6 0x55b24ee9116e <unknown>
+#7 0x55b24ee939db <unknown>
+#8 0x55b24ee93aa1 <unknown>
+#9 0x55b24eed2ba8 <unknown>
+#10 0x55b24eed3241 <unknown>
+#11 0x55b24eec9836 <unknown>
+#12 0x55b24eefab0d <unknown>
+#13 0x55b24eec974e <unknown>
+#14 0x55b24eefac6e <unknown>
+#15 0x55b24ef1763e <unknown>
+#16 0x55b24eefa863 <unknown>
+#17 0x55b24eec7517 <unknown>
+#18 0x55b24eec82b2 <unknown>
+#19 0x55b24f33c5ba <unknown>
+#20 0x55b24f33f96e <unknown>
+#21 0x55b24f33f3e8 <unknown>
+#22 0x55b24f33fdf5 <unknown>
+#23 0x55b24f32cf92 <unknown>
+#24 0x55b24f340161 <unknown>
+#25 0x55b24f315e39 <unknown>
+#26 0x55b24f358db5 <unknown>
+#27 0x55b24f358f9b <unknown>
+#28 0x55b24f367f15 <unknown>
+#29 0x7f8be72f71c4 <unknown>
+
+2024-12-31 11:38:27,311 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55b24f368dbe <unknown>
+#1 0x55b24ee8c06b <unknown>
+#2 0x55b24ee9c124 <unknown>
+#3 0x55b24ee9b0ac <unknown>
+#4 0x55b24ee9c2b9 <unknown>
+#5 0x55b24ee92027 <unknown>
+#6 0x55b24ee9116e <unknown>
+#7 0x55b24ee939db <unknown>
+#8 0x55b24ee93aa1 <unknown>
+#9 0x55b24eed2ba8 <unknown>
+#10 0x55b24eed3241 <unknown>
+#11 0x55b24eec9836 <unknown>
+#12 0x55b24eefab0d <unknown>
+#13 0x55b24eec974e <unknown>
+#14 0x55b24eefac6e <unknown>
+#15 0x55b24ef1763e <unknown>
+#16 0x55b24eefa863 <unknown>
+#17 0x55b24eec7517 <unknown>
+#18 0x55b24eec82b2 <unknown>
+#19 0x55b24f33c5ba <unknown>
+#20 0x55b24f33f96e <unknown>
+#21 0x55b24f33f3e8 <unknown>
+#22 0x55b24f33fdf5 <unknown>
+#23 0x55b24f32cf92 <unknown>
+#24 0x55b24f340161 <unknown>
+#25 0x55b24f315e39 <unknown>
+#26 0x55b24f358db5 <unknown>
+#27 0x55b24f358f9b <unknown>
+#28 0x55b24f367f15 <unknown>
+#29 0x7f8be72f71c4 <unknown>
+
+2024-12-31 11:38:28,935 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55b24f368dbe <unknown>
+#1 0x55b24ee8c06b <unknown>
+#2 0x55b24ee9c124 <unknown>
+#3 0x55b24ee9b0ac <unknown>
+#4 0x55b24ee9c2b9 <unknown>
+#5 0x55b24ee92027 <unknown>
+#6 0x55b24ee9116e <unknown>
+#7 0x55b24ee939db <unknown>
+#8 0x55b24ee93aa1 <unknown>
+#9 0x55b24eed2ba8 <unknown>
+#10 0x55b24eed3241 <unknown>
+#11 0x55b24eec9836 <unknown>
+#12 0x55b24eefab0d <unknown>
+#13 0x55b24eec974e <unknown>
+#14 0x55b24eefac6e <unknown>
+#15 0x55b24ef1763e <unknown>
+#16 0x55b24eefa863 <unknown>
+#17 0x55b24eec7517 <unknown>
+#18 0x55b24eec82b2 <unknown>
+#19 0x55b24f33c5ba <unknown>
+#20 0x55b24f33f96e <unknown>
+#21 0x55b24f33f3e8 <unknown>
+#22 0x55b24f33fdf5 <unknown>
+#23 0x55b24f32cf92 <unknown>
+#24 0x55b24f340161 <unknown>
+#25 0x55b24f315e39 <unknown>
+#26 0x55b24f358db5 <unknown>
+#27 0x55b24f358f9b <unknown>
+#28 0x55b24f367f15 <unknown>
+#29 0x7f8be72f71c4 <unknown>
+
+2024-12-31 11:38:30,492 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:38:31,761 [INFO] WebDriver closed successfully
+2024-12-31 11:43:32,099 [INFO] WebDriver initialized successfully
+2024-12-31 11:43:32,101 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:44:10,792 [INFO] Found 28 hotels
+2024-12-31 11:44:11,364 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNEkOzfjCA&pm=daybase#overview
+2024-12-31 11:44:11,368 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNEkOzfjCA&pm=daybase#overview
+2024-12-31 11:45:12,236 [INFO] Found 2 room elements
+2024-12-31 11:45:13,509 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 11:45:15,019 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 11:45:15,026 [INFO] Found 2 room types
+2024-12-31 11:45:26,183 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557365d61dbe <unknown>
+#1 0x55736588506b <unknown>
+#2 0x557365895124 <unknown>
+#3 0x5573658940ac <unknown>
+#4 0x5573658952b9 <unknown>
+#5 0x55736588b027 <unknown>
+#6 0x55736588a16e <unknown>
+#7 0x55736588c9db <unknown>
+#8 0x55736588caa1 <unknown>
+#9 0x5573658cbba8 <unknown>
+#10 0x5573658cc241 <unknown>
+#11 0x5573658c2836 <unknown>
+#12 0x5573658f3b0d <unknown>
+#13 0x5573658c274e <unknown>
+#14 0x5573658f3c6e <unknown>
+#15 0x55736591063e <unknown>
+#16 0x5573658f3863 <unknown>
+#17 0x5573658c0517 <unknown>
+#18 0x5573658c12b2 <unknown>
+#19 0x557365d355ba <unknown>
+#20 0x557365d3896e <unknown>
+#21 0x557365d383e8 <unknown>
+#22 0x557365d38df5 <unknown>
+#23 0x557365d25f92 <unknown>
+#24 0x557365d39161 <unknown>
+#25 0x557365d0ee39 <unknown>
+#26 0x557365d51db5 <unknown>
+#27 0x557365d51f9b <unknown>
+#28 0x557365d60f15 <unknown>
+#29 0x7fee0b39a1c4 <unknown>
+
+2024-12-31 11:45:28,093 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557365d61dbe <unknown>
+#1 0x55736588506b <unknown>
+#2 0x557365895124 <unknown>
+#3 0x5573658940ac <unknown>
+#4 0x5573658952b9 <unknown>
+#5 0x55736588b027 <unknown>
+#6 0x55736588a16e <unknown>
+#7 0x55736588c9db <unknown>
+#8 0x55736588caa1 <unknown>
+#9 0x5573658cbba8 <unknown>
+#10 0x5573658cc241 <unknown>
+#11 0x5573658c2836 <unknown>
+#12 0x5573658f3b0d <unknown>
+#13 0x5573658c274e <unknown>
+#14 0x5573658f3c6e <unknown>
+#15 0x55736591063e <unknown>
+#16 0x5573658f3863 <unknown>
+#17 0x5573658c0517 <unknown>
+#18 0x5573658c12b2 <unknown>
+#19 0x557365d355ba <unknown>
+#20 0x557365d3896e <unknown>
+#21 0x557365d383e8 <unknown>
+#22 0x557365d38df5 <unknown>
+#23 0x557365d25f92 <unknown>
+#24 0x557365d39161 <unknown>
+#25 0x557365d0ee39 <unknown>
+#26 0x557365d51db5 <unknown>
+#27 0x557365d51f9b <unknown>
+#28 0x557365d60f15 <unknown>
+#29 0x7fee0b39a1c4 <unknown>
+
+2024-12-31 11:45:29,206 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557365d61dbe <unknown>
+#1 0x55736588506b <unknown>
+#2 0x557365895124 <unknown>
+#3 0x5573658940ac <unknown>
+#4 0x5573658952b9 <unknown>
+#5 0x55736588b027 <unknown>
+#6 0x55736588a16e <unknown>
+#7 0x55736588c9db <unknown>
+#8 0x55736588caa1 <unknown>
+#9 0x5573658cbba8 <unknown>
+#10 0x5573658cc241 <unknown>
+#11 0x5573658c2836 <unknown>
+#12 0x5573658f3b0d <unknown>
+#13 0x5573658c274e <unknown>
+#14 0x5573658f3c6e <unknown>
+#15 0x55736591063e <unknown>
+#16 0x5573658f3863 <unknown>
+#17 0x5573658c0517 <unknown>
+#18 0x5573658c12b2 <unknown>
+#19 0x557365d355ba <unknown>
+#20 0x557365d3896e <unknown>
+#21 0x557365d383e8 <unknown>
+#22 0x557365d38df5 <unknown>
+#23 0x557365d25f92 <unknown>
+#24 0x557365d39161 <unknown>
+#25 0x557365d0ee39 <unknown>
+#26 0x557365d51db5 <unknown>
+#27 0x557365d51f9b <unknown>
+#28 0x557365d60f15 <unknown>
+#29 0x7fee0b39a1c4 <unknown>
+
+2024-12-31 11:45:30,383 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x557365d61dbe <unknown>
+#1 0x55736588506b <unknown>
+#2 0x557365895124 <unknown>
+#3 0x5573658940ac <unknown>
+#4 0x5573658952b9 <unknown>
+#5 0x55736588b027 <unknown>
+#6 0x55736588a16e <unknown>
+#7 0x55736588c9db <unknown>
+#8 0x55736588caa1 <unknown>
+#9 0x5573658cbba8 <unknown>
+#10 0x5573658cc241 <unknown>
+#11 0x5573658c2836 <unknown>
+#12 0x5573658f3b0d <unknown>
+#13 0x5573658c274e <unknown>
+#14 0x5573658f3c6e <unknown>
+#15 0x55736591063e <unknown>
+#16 0x5573658f3863 <unknown>
+#17 0x5573658c0517 <unknown>
+#18 0x5573658c12b2 <unknown>
+#19 0x557365d355ba <unknown>
+#20 0x557365d3896e <unknown>
+#21 0x557365d383e8 <unknown>
+#22 0x557365d38df5 <unknown>
+#23 0x557365d25f92 <unknown>
+#24 0x557365d39161 <unknown>
+#25 0x557365d0ee39 <unknown>
+#26 0x557365d51db5 <unknown>
+#27 0x557365d51f9b <unknown>
+#28 0x557365d60f15 <unknown>
+#29 0x7fee0b39a1c4 <unknown>
+
+2024-12-31 11:45:31,811 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:45:31,981 [INFO] WebDriver closed successfully
+2024-12-31 11:46:16,396 [INFO] WebDriver initialized successfully
+2024-12-31 11:46:16,409 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 11:47:02,584 [INFO] Found 28 hotels
+2024-12-31 11:47:02,772 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNFkNnUN_F&pm=daybase#overview
+2024-12-31 11:47:02,773 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eNFkNnUN_F&pm=daybase#overview
+2024-12-31 11:47:33,262 [INFO] Found 2 room elements
+2024-12-31 11:47:34,453 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 11:47:36,043 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 11:47:36,045 [INFO] Found 2 room types
+2024-12-31 11:47:47,311 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f9eeb62dbe <unknown>
+#1 0x55f9ee68606b <unknown>
+#2 0x55f9ee696124 <unknown>
+#3 0x55f9ee6950ac <unknown>
+#4 0x55f9ee6962b9 <unknown>
+#5 0x55f9ee68c027 <unknown>
+#6 0x55f9ee68b16e <unknown>
+#7 0x55f9ee68d9db <unknown>
+#8 0x55f9ee68daa1 <unknown>
+#9 0x55f9ee6ccba8 <unknown>
+#10 0x55f9ee6cd241 <unknown>
+#11 0x55f9ee6c3836 <unknown>
+#12 0x55f9ee6f4b0d <unknown>
+#13 0x55f9ee6c374e <unknown>
+#14 0x55f9ee6f4c6e <unknown>
+#15 0x55f9ee71163e <unknown>
+#16 0x55f9ee6f4863 <unknown>
+#17 0x55f9ee6c1517 <unknown>
+#18 0x55f9ee6c22b2 <unknown>
+#19 0x55f9eeb365ba <unknown>
+#20 0x55f9eeb3996e <unknown>
+#21 0x55f9eeb393e8 <unknown>
+#22 0x55f9eeb39df5 <unknown>
+#23 0x55f9eeb26f92 <unknown>
+#24 0x55f9eeb3a161 <unknown>
+#25 0x55f9eeb0fe39 <unknown>
+#26 0x55f9eeb52db5 <unknown>
+#27 0x55f9eeb52f9b <unknown>
+#28 0x55f9eeb61f15 <unknown>
+#29 0x7f4e62cd71c4 <unknown>
+
+2024-12-31 11:47:48,790 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f9eeb62dbe <unknown>
+#1 0x55f9ee68606b <unknown>
+#2 0x55f9ee696124 <unknown>
+#3 0x55f9ee6950ac <unknown>
+#4 0x55f9ee6962b9 <unknown>
+#5 0x55f9ee68c027 <unknown>
+#6 0x55f9ee68b16e <unknown>
+#7 0x55f9ee68d9db <unknown>
+#8 0x55f9ee68daa1 <unknown>
+#9 0x55f9ee6ccba8 <unknown>
+#10 0x55f9ee6cd241 <unknown>
+#11 0x55f9ee6c3836 <unknown>
+#12 0x55f9ee6f4b0d <unknown>
+#13 0x55f9ee6c374e <unknown>
+#14 0x55f9ee6f4c6e <unknown>
+#15 0x55f9ee71163e <unknown>
+#16 0x55f9ee6f4863 <unknown>
+#17 0x55f9ee6c1517 <unknown>
+#18 0x55f9ee6c22b2 <unknown>
+#19 0x55f9eeb365ba <unknown>
+#20 0x55f9eeb3996e <unknown>
+#21 0x55f9eeb393e8 <unknown>
+#22 0x55f9eeb39df5 <unknown>
+#23 0x55f9eeb26f92 <unknown>
+#24 0x55f9eeb3a161 <unknown>
+#25 0x55f9eeb0fe39 <unknown>
+#26 0x55f9eeb52db5 <unknown>
+#27 0x55f9eeb52f9b <unknown>
+#28 0x55f9eeb61f15 <unknown>
+#29 0x7f4e62cd71c4 <unknown>
+
+2024-12-31 11:47:50,782 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f9eeb62dbe <unknown>
+#1 0x55f9ee68606b <unknown>
+#2 0x55f9ee696124 <unknown>
+#3 0x55f9ee6950ac <unknown>
+#4 0x55f9ee6962b9 <unknown>
+#5 0x55f9ee68c027 <unknown>
+#6 0x55f9ee68b16e <unknown>
+#7 0x55f9ee68d9db <unknown>
+#8 0x55f9ee68daa1 <unknown>
+#9 0x55f9ee6ccba8 <unknown>
+#10 0x55f9ee6cd241 <unknown>
+#11 0x55f9ee6c3836 <unknown>
+#12 0x55f9ee6f4b0d <unknown>
+#13 0x55f9ee6c374e <unknown>
+#14 0x55f9ee6f4c6e <unknown>
+#15 0x55f9ee71163e <unknown>
+#16 0x55f9ee6f4863 <unknown>
+#17 0x55f9ee6c1517 <unknown>
+#18 0x55f9ee6c22b2 <unknown>
+#19 0x55f9eeb365ba <unknown>
+#20 0x55f9eeb3996e <unknown>
+#21 0x55f9eeb393e8 <unknown>
+#22 0x55f9eeb39df5 <unknown>
+#23 0x55f9eeb26f92 <unknown>
+#24 0x55f9eeb3a161 <unknown>
+#25 0x55f9eeb0fe39 <unknown>
+#26 0x55f9eeb52db5 <unknown>
+#27 0x55f9eeb52f9b <unknown>
+#28 0x55f9eeb61f15 <unknown>
+#29 0x7f4e62cd71c4 <unknown>
+
+2024-12-31 11:47:51,936 [ERROR] Error extracting basic hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55f9eeb62dbe <unknown>
+#1 0x55f9ee68606b <unknown>
+#2 0x55f9ee696124 <unknown>
+#3 0x55f9ee6950ac <unknown>
+#4 0x55f9ee6962b9 <unknown>
+#5 0x55f9ee68c027 <unknown>
+#6 0x55f9ee68b16e <unknown>
+#7 0x55f9ee68d9db <unknown>
+#8 0x55f9ee68daa1 <unknown>
+#9 0x55f9ee6ccba8 <unknown>
+#10 0x55f9ee6cd241 <unknown>
+#11 0x55f9ee6c3836 <unknown>
+#12 0x55f9ee6f4b0d <unknown>
+#13 0x55f9ee6c374e <unknown>
+#14 0x55f9ee6f4c6e <unknown>
+#15 0x55f9ee71163e <unknown>
+#16 0x55f9ee6f4863 <unknown>
+#17 0x55f9ee6c1517 <unknown>
+#18 0x55f9ee6c22b2 <unknown>
+#19 0x55f9eeb365ba <unknown>
+#20 0x55f9eeb3996e <unknown>
+#21 0x55f9eeb393e8 <unknown>
+#22 0x55f9eeb39df5 <unknown>
+#23 0x55f9eeb26f92 <unknown>
+#24 0x55f9eeb3a161 <unknown>
+#25 0x55f9eeb0fe39 <unknown>
+#26 0x55f9eeb52db5 <unknown>
+#27 0x55f9eeb52f9b <unknown>
+#28 0x55f9eeb61f15 <unknown>
+#29 0x7f4e62cd71c4 <unknown>
+
+2024-12-31 11:47:53,670 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 11:47:53,829 [INFO] WebDriver closed successfully
+2024-12-31 12:42:45,426 [INFO] WebDriver initialized successfully
+2024-12-31 12:42:45,428 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:43:19,627 [INFO] Found 28 hotels
+2024-12-31 12:43:20,422 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:43:20,424 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:43:49,470 [INFO] Found 2 room elements
+2024-12-31 12:43:50,657 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 12:43:52,358 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 12:43:52,360 [INFO] Found 2 room types
+2024-12-31 12:43:52,982 [INFO] Found 0 amenities
+2024-12-31 12:43:52,986 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:44:29,494 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:44:29,514 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:44:59,006 [INFO] Found 4 room elements
+2024-12-31 12:45:12,165 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 12:45:23,760 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 12:45:36,157 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 12:45:47,902 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 12:45:47,905 [INFO] Found 4 room types
+2024-12-31 12:45:49,245 [INFO] Found 0 amenities
+2024-12-31 12:45:49,248 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:46:23,027 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:46:23,044 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:46:51,950 [INFO] Found 1 room elements
+2024-12-31 12:46:53,746 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 12:46:53,749 [INFO] Found 1 room types
+2024-12-31 12:46:54,264 [INFO] Found 0 amenities
+2024-12-31 12:46:54,266 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:47:30,259 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:47:30,295 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:47:59,005 [INFO] Found 4 room elements
+2024-12-31 12:48:00,242 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 12:48:01,405 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 12:48:03,132 [INFO] Successfully extracted room: Triple Room
+2024-12-31 12:48:04,775 [INFO] Successfully extracted room: Family Room
+2024-12-31 12:48:04,776 [INFO] Found 4 room types
+2024-12-31 12:48:05,579 [INFO] Found 0 amenities
+2024-12-31 12:48:05,581 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:48:39,307 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:48:39,311 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ePGESv0OIM&pm=daybase#overview
+2024-12-31 12:49:07,528 [INFO] Found 1 room elements
+2024-12-31 12:49:28,772 [INFO] Successfully extracted room: All deals
+2024-12-31 12:49:28,829 [INFO] Found 1 room types
+2024-12-31 12:49:28,926 [INFO] Found 0 amenities
+2024-12-31 12:49:28,928 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:50:01,569 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 12:50:02,263 [INFO] WebDriver closed successfully
+2024-12-31 12:56:43,351 [INFO] WebDriver initialized successfully
+2024-12-31 12:56:43,366 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:57:21,934 [INFO] Found 28 hotels
+2024-12-31 12:57:22,764 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 12:57:22,765 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 12:58:24,242 [INFO] Found 2 room elements
+2024-12-31 12:58:25,423 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 12:58:27,006 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 12:58:27,009 [INFO] Found 2 room types
+2024-12-31 12:58:37,033 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 12:59:10,392 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 12:59:10,401 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 12:59:40,793 [INFO] Found 4 room elements
+2024-12-31 12:59:51,956 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 13:00:03,115 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 13:00:14,965 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 13:00:26,748 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 13:00:26,754 [INFO] Found 4 room types
+2024-12-31 13:00:36,754 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:01:09,107 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:01:09,125 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:01:39,140 [INFO] Found 1 room elements
+2024-12-31 13:01:40,794 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 13:01:40,800 [INFO] Found 1 room types
+2024-12-31 13:01:50,818 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:02:23,576 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:02:23,594 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:02:53,220 [INFO] Found 4 room elements
+2024-12-31 13:02:54,404 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 13:02:55,641 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 13:02:57,333 [INFO] Successfully extracted room: Triple Room
+2024-12-31 13:02:58,995 [INFO] Successfully extracted room: Family Room
+2024-12-31 13:02:58,998 [INFO] Found 4 room types
+2024-12-31 13:03:09,005 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:03:41,705 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:03:41,707 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ePFEPoQMaZ&pm=daybase#overview
+2024-12-31 13:04:11,262 [INFO] Found 1 room elements
+2024-12-31 13:04:32,456 [INFO] Successfully extracted room: All deals
+2024-12-31 13:04:32,474 [INFO] Found 1 room types
+2024-12-31 13:04:42,464 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:05:19,586 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 13:05:19,895 [INFO] WebDriver closed successfully
+2024-12-31 13:09:12,526 [INFO] WebDriver initialized successfully
+2024-12-31 13:09:12,532 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:09:47,199 [INFO] Found 28 hotels
+2024-12-31 13:09:48,241 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:09:48,243 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:10:18,659 [INFO] Found 2 room elements
+2024-12-31 13:10:19,846 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 13:10:21,535 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 13:10:21,537 [INFO] Found 2 room types
+2024-12-31 13:10:31,553 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:11:07,469 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:11:07,479 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:11:37,498 [INFO] Found 4 room elements
+2024-12-31 13:11:48,690 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 13:11:59,854 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 13:12:11,674 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 13:12:23,367 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 13:12:23,371 [INFO] Found 4 room types
+2024-12-31 13:12:33,387 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:13:07,219 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:13:07,227 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:13:36,689 [INFO] Found 1 room elements
+2024-12-31 13:13:38,322 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 13:13:38,326 [INFO] Found 1 room types
+2024-12-31 13:13:48,353 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:14:23,801 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:14:23,803 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:14:53,232 [INFO] Found 4 room elements
+2024-12-31 13:14:54,396 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 13:14:55,587 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 13:14:57,279 [INFO] Successfully extracted room: Triple Room
+2024-12-31 13:14:58,977 [INFO] Successfully extracted room: Family Room
+2024-12-31 13:14:58,984 [INFO] Found 4 room types
+2024-12-31 13:15:08,975 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:15:43,892 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:15:43,910 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eQFkE37TuZ&pm=daybase#overview
+2024-12-31 13:16:12,949 [INFO] Found 1 room elements
+2024-12-31 13:16:34,110 [INFO] Successfully extracted room: All deals
+2024-12-31 13:16:34,113 [INFO] Found 1 room types
+2024-12-31 13:16:44,170 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:17:18,944 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 13:17:19,140 [INFO] WebDriver closed successfully
+2024-12-31 13:34:04,235 [INFO] WebDriver initialized successfully
+2024-12-31 13:34:04,256 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:35:08,078 [INFO] Found 28 hotels
+2024-12-31 13:35:09,013 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:35:09,016 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:35:41,714 [INFO] Found 2 room elements
+2024-12-31 13:35:43,162 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 13:35:44,893 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 13:35:44,904 [INFO] Found 2 room types
+2024-12-31 13:35:56,975 [ERROR] Error extracting amenities: Message: no such element: Unable to locate element: {"method":"css selector","selector":"section.Vdvb"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559bf9771dbe <unknown>
+#1 0x559bf929506b <unknown>
+#2 0x559bf92dc160 <unknown>
+#3 0x559bf92dc241 <unknown>
+#4 0x559bf9322634 <unknown>
+#5 0x559bf9303b0d <unknown>
+#6 0x559bf932063e <unknown>
+#7 0x559bf9303863 <unknown>
+#8 0x559bf92d0517 <unknown>
+#9 0x559bf92d12b2 <unknown>
+#10 0x559bf97455ba <unknown>
+#11 0x559bf974896e <unknown>
+#12 0x559bf97483e8 <unknown>
+#13 0x559bf9748df5 <unknown>
+#14 0x559bf9735f92 <unknown>
+#15 0x559bf9749161 <unknown>
+#16 0x559bf971ee39 <unknown>
+#17 0x559bf9761db5 <unknown>
+#18 0x559bf9761f9b <unknown>
+#19 0x559bf9770f15 <unknown>
+#20 0x7f5c217601c4 <unknown>
+
+2024-12-31 13:35:56,981 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:36:33,516 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:36:33,533 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:37:05,325 [INFO] Found 4 room elements
+2024-12-31 13:37:16,502 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 13:37:27,620 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 13:37:39,450 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 13:37:51,408 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 13:37:51,413 [INFO] Found 4 room types
+2024-12-31 13:38:03,442 [ERROR] Error extracting amenities: Message: no such element: Unable to locate element: {"method":"css selector","selector":"section.Vdvb"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559bf9771dbe <unknown>
+#1 0x559bf929506b <unknown>
+#2 0x559bf92dc160 <unknown>
+#3 0x559bf92dc241 <unknown>
+#4 0x559bf9322634 <unknown>
+#5 0x559bf9303b0d <unknown>
+#6 0x559bf932063e <unknown>
+#7 0x559bf9303863 <unknown>
+#8 0x559bf92d0517 <unknown>
+#9 0x559bf92d12b2 <unknown>
+#10 0x559bf97455ba <unknown>
+#11 0x559bf974896e <unknown>
+#12 0x559bf97483e8 <unknown>
+#13 0x559bf9748df5 <unknown>
+#14 0x559bf9735f92 <unknown>
+#15 0x559bf9749161 <unknown>
+#16 0x559bf971ee39 <unknown>
+#17 0x559bf9761db5 <unknown>
+#18 0x559bf9761f9b <unknown>
+#19 0x559bf9770f15 <unknown>
+#20 0x7f5c217601c4 <unknown>
+
+2024-12-31 13:38:03,463 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:38:45,869 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:38:45,889 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:39:16,447 [INFO] Found 1 room elements
+2024-12-31 13:39:18,330 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 13:39:18,339 [INFO] Found 1 room types
+2024-12-31 13:39:30,355 [ERROR] Error extracting amenities: Message: no such element: Unable to locate element: {"method":"css selector","selector":"section.Vdvb"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559bf9771dbe <unknown>
+#1 0x559bf929506b <unknown>
+#2 0x559bf92dc160 <unknown>
+#3 0x559bf92dc241 <unknown>
+#4 0x559bf9322634 <unknown>
+#5 0x559bf9303b0d <unknown>
+#6 0x559bf932063e <unknown>
+#7 0x559bf9303863 <unknown>
+#8 0x559bf92d0517 <unknown>
+#9 0x559bf92d12b2 <unknown>
+#10 0x559bf97455ba <unknown>
+#11 0x559bf974896e <unknown>
+#12 0x559bf97483e8 <unknown>
+#13 0x559bf9748df5 <unknown>
+#14 0x559bf9735f92 <unknown>
+#15 0x559bf9749161 <unknown>
+#16 0x559bf971ee39 <unknown>
+#17 0x559bf9761db5 <unknown>
+#18 0x559bf9761f9b <unknown>
+#19 0x559bf9770f15 <unknown>
+#20 0x7f5c217601c4 <unknown>
+
+2024-12-31 13:39:30,375 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:40:03,985 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:40:03,996 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eRGkBrElx0&pm=daybase#overview
+2024-12-31 13:40:34,038 [INFO] Found 4 room elements
+2024-12-31 13:40:35,219 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 13:40:36,426 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 13:40:38,289 [INFO] Successfully extracted room: Triple Room
+2024-12-31 13:40:40,038 [INFO] Successfully extracted room: Family Room
+2024-12-31 13:40:40,041 [INFO] Found 4 room types
+2024-12-31 13:40:52,061 [ERROR] Error extracting amenities: Message: no such element: Unable to locate element: {"method":"css selector","selector":"section.Vdvb"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x559bf9771dbe <unknown>
+#1 0x559bf929506b <unknown>
+#2 0x559bf92dc160 <unknown>
+#3 0x559bf92dc241 <unknown>
+#4 0x559bf9322634 <unknown>
+#5 0x559bf9303b0d <unknown>
+#6 0x559bf932063e <unknown>
+#7 0x559bf9303863 <unknown>
+#8 0x559bf92d0517 <unknown>
+#9 0x559bf92d12b2 <unknown>
+#10 0x559bf97455ba <unknown>
+#11 0x559bf974896e <unknown>
+#12 0x559bf97483e8 <unknown>
+#13 0x559bf9748df5 <unknown>
+#14 0x559bf9735f92 <unknown>
+#15 0x559bf9749161 <unknown>
+#16 0x559bf971ee39 <unknown>
+#17 0x559bf9761db5 <unknown>
+#18 0x559bf9761f9b <unknown>
+#19 0x559bf9770f15 <unknown>
+#20 0x7f5c217601c4 <unknown>
+
+2024-12-31 13:40:52,080 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 13:59:40,880 [INFO] WebDriver initialized successfully
+2024-12-31 13:59:40,927 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:00:39,568 [INFO] Found 27 hotels
+2024-12-31 14:00:41,574 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:00:41,605 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:01:14,596 [INFO] Found 2 room elements
+2024-12-31 14:01:15,836 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 14:01:17,566 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 14:01:17,568 [INFO] Found 2 room types
+2024-12-31 14:01:40,655 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:02:24,161 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:02:24,183 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:02:55,190 [INFO] Found 4 room elements
+2024-12-31 14:03:06,636 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 14:03:17,819 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 14:03:29,823 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 14:03:41,999 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 14:03:42,004 [INFO] Found 4 room types
+2024-12-31 14:04:05,152 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:04:46,837 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:04:46,856 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:05:18,408 [INFO] Found 1 room elements
+2024-12-31 14:05:20,434 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 14:05:20,441 [INFO] Found 1 room types
+2024-12-31 14:05:43,535 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:06:24,387 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:06:24,406 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:06:55,072 [INFO] Found 1 room elements
+2024-12-31 14:07:16,609 [INFO] Successfully extracted room: All deals
+2024-12-31 14:07:16,637 [INFO] Found 1 room types
+2024-12-31 14:07:39,721 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:08:22,699 [INFO] Loading detail page: https://www.kayak.com/hotels/Auberge-Tinit,Errachidia-p170319-h637509-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:08:22,719 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Auberge-Tinit,Errachidia-p170319-h637509-details/2025-01-10/2025-01-14/2adults?psid=eRGEEpHwEy&pm=daybase#overview
+2024-12-31 14:08:54,935 [INFO] Found 4 room elements
+2024-12-31 14:09:06,114 [ERROR] Error extracting room details: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.C9NJ-amount"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55c24cea4dbe <unknown>
+#1 0x55c24c9c806b <unknown>
+#2 0x55c24ca0f160 <unknown>
+#3 0x55c24ca0f241 <unknown>
+#4 0x55c24ca05836 <unknown>
+#5 0x55c24ca36b0d <unknown>
+#6 0x55c24ca0574e <unknown>
+#7 0x55c24ca36c6e <unknown>
+#8 0x55c24ca5363e <unknown>
+#9 0x55c24ca36863 <unknown>
+#10 0x55c24ca03517 <unknown>
+#11 0x55c24ca042b2 <unknown>
+#12 0x55c24ce785ba <unknown>
+#13 0x55c24ce7b96e <unknown>
+#14 0x55c24ce7b3e8 <unknown>
+#15 0x55c24ce7bdf5 <unknown>
+#16 0x55c24ce68f92 <unknown>
+#17 0x55c24ce7c161 <unknown>
+#18 0x55c24ce51e39 <unknown>
+#19 0x55c24ce94db5 <unknown>
+#20 0x55c24ce94f9b <unknown>
+#21 0x55c24cea3f15 <unknown>
+#22 0x7f6a667f41c4 <unknown>
+
+2024-12-31 14:09:07,382 [INFO] Successfully extracted room: Twin Room
+2024-12-31 14:09:08,580 [INFO] Successfully extracted room: Comfort Double or Twin Room
+2024-12-31 14:09:10,361 [INFO] Successfully extracted room: Triple Room
+2024-12-31 14:09:10,366 [INFO] Found 3 room types
+2024-12-31 14:09:33,495 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:10:19,090 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 14:10:22,409 [INFO] WebDriver closed successfully
+2024-12-31 14:14:37,514 [INFO] WebDriver initialized successfully
+2024-12-31 14:17:00,268 [INFO] WebDriver initialized successfully
+2024-12-31 14:17:00,289 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:17:36,726 [INFO] Found 28 hotels
+2024-12-31 14:17:37,521 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:17:37,523 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:18:08,645 [INFO] Found 2 room elements
+2024-12-31 14:18:10,003 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 14:18:12,029 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 14:18:12,035 [INFO] Found 2 room types
+2024-12-31 14:20:04,468 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:20:39,378 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:20:39,400 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:21:12,077 [INFO] Found 4 room elements
+2024-12-31 14:21:13,291 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 14:21:14,415 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 14:21:16,550 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 14:21:28,721 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 14:21:28,761 [INFO] Found 4 room types
+2024-12-31 14:23:21,196 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:24:02,784 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:24:02,870 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:24:32,645 [INFO] Found 1 room elements
+2024-12-31 14:24:34,664 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 14:24:34,671 [INFO] Found 1 room types
+2024-12-31 14:26:27,318 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:27:05,838 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:27:05,851 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:27:36,370 [INFO] Found 4 room elements
+2024-12-31 14:27:37,723 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 14:27:38,974 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 14:27:41,134 [INFO] Successfully extracted room: Triple Room
+2024-12-31 14:27:43,926 [INFO] Successfully extracted room: Family Room
+2024-12-31 14:27:43,937 [INFO] Found 4 room types
+2024-12-31 14:29:36,391 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:30:13,178 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:30:13,333 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview
+2024-12-31 14:30:43,145 [INFO] Found 1 room elements
+2024-12-31 14:30:54,317 [INFO] Successfully extracted room: All deals
+2024-12-31 14:30:54,322 [INFO] Found 1 room types
+2024-12-31 14:32:16,703 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 14:32:54,667 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 14:32:56,433 [INFO] WebDriver closed successfully
+2024-12-31 21:50:06,372 [INFO] WebDriver initialized successfully
+2024-12-31 21:50:06,376 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 21:50:48,931 [INFO] Found 28 hotels
+2024-12-31 21:50:54,967 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:50:54,987 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:51:25,169 [INFO] Found 4 room elements
+2024-12-31 21:51:26,483 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 21:51:27,648 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 21:51:29,640 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 21:51:41,493 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 21:51:41,503 [INFO] Found 4 room types
+2024-12-31 21:53:24,998 [INFO] Found 10 amenities
+2024-12-31 21:53:25,017 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 21:54:08,437 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:54:08,456 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:54:38,954 [INFO] Found 2 room elements
+2024-12-31 21:54:40,190 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 21:54:42,406 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 21:54:42,409 [INFO] Found 2 room types
+2024-12-31 21:56:26,584 [INFO] Found 10 amenities
+2024-12-31 21:56:26,593 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 21:57:08,042 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:57:08,066 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 21:57:37,923 [INFO] Found 1 room elements
+2024-12-31 21:57:39,912 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 21:57:39,914 [INFO] Found 1 room types
+2024-12-31 21:59:22,959 [INFO] Found 10 amenities
+2024-12-31 21:59:22,982 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:00:09,337 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 22:00:09,359 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 22:00:40,241 [INFO] Found 4 room elements
+2024-12-31 22:00:41,560 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 22:00:42,782 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 22:00:44,838 [INFO] Successfully extracted room: Triple Room
+2024-12-31 22:00:47,046 [INFO] Successfully extracted room: Family Room
+2024-12-31 22:00:47,049 [INFO] Found 4 room types
+2024-12-31 22:02:30,032 [INFO] Found 10 amenities
+2024-12-31 22:02:30,046 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:03:10,641 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 22:03:10,681 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ehGkClUvR1&pm=daybase#overview
+2024-12-31 22:03:40,171 [INFO] Found 1 room elements
+2024-12-31 22:03:51,483 [INFO] Successfully extracted room: All deals
+2024-12-31 22:03:51,504 [INFO] Found 1 room types
+2024-12-31 22:05:04,149 [INFO] Found 7 amenities
+2024-12-31 22:05:04,163 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:05:45,809 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 22:05:47,351 [INFO] WebDriver closed successfully
+2024-12-31 22:30:23,308 [INFO] WebDriver initialized successfully
+2024-12-31 22:30:23,319 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:31:08,586 [INFO] Found 28 hotels
+2024-12-31 22:31:19,707 [ERROR] Error extracting basic hotel info: name 'NoSuchElementException' is not defined
+2024-12-31 22:31:30,819 [ERROR] Error extracting basic hotel info: name 'NoSuchElementException' is not defined
+2024-12-31 22:31:41,914 [ERROR] Error extracting basic hotel info: name 'NoSuchElementException' is not defined
+2024-12-31 22:31:52,796 [ERROR] Error extracting basic hotel info: name 'NoSuchElementException' is not defined
+2024-12-31 22:32:03,997 [ERROR] Error extracting basic hotel info: name 'NoSuchElementException' is not defined
+2024-12-31 22:32:04,040 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:32:04,043 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:32:35,918 [INFO] Found 4 room elements
+2024-12-31 22:32:37,224 [INFO] Successfully extracted room: Standard Double Room
+2024-12-31 22:32:38,348 [INFO] Successfully extracted room: Twin Room with Garden View
+2024-12-31 22:32:40,270 [INFO] Successfully extracted room: Standard Triple Room
+2024-12-31 22:32:52,247 [INFO] Successfully extracted room: Classic Quadruple Room
+2024-12-31 22:32:52,263 [INFO] Found 4 room types
+2024-12-31 22:34:44,699 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:35:21,132 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:35:21,157 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:35:51,476 [INFO] Found 2 room elements
+2024-12-31 22:35:52,757 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2024-12-31 22:35:54,525 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2024-12-31 22:35:54,527 [INFO] Found 2 room types
+2024-12-31 22:37:46,874 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:38:23,703 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:38:23,730 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:38:54,410 [INFO] Found 1 room elements
+2024-12-31 22:38:56,465 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2024-12-31 22:38:56,468 [INFO] Found 1 room types
+2024-12-31 22:40:48,942 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:41:28,719 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:41:28,748 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:42:00,262 [INFO] Found 4 room elements
+2024-12-31 22:42:01,470 [INFO] Successfully extracted room: Deluxe Double or Twin Room
+2024-12-31 22:42:02,628 [INFO] Successfully extracted room: Superior Double Room
+2024-12-31 22:42:04,262 [INFO] Successfully extracted room: Triple Room
+2024-12-31 22:42:05,906 [INFO] Successfully extracted room: Family Room
+2024-12-31 22:42:05,908 [INFO] Found 4 room types
+2024-12-31 22:43:58,368 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:44:39,383 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:44:39,393 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview
+2024-12-31 22:45:10,317 [INFO] Found 1 room elements
+2024-12-31 22:45:21,497 [INFO] Successfully extracted room: All deals
+2024-12-31 22:45:21,500 [INFO] Found 1 room types
+2024-12-31 22:46:43,790 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-31 22:47:23,318 [INFO] Data saved successfully to data/hotel_data.json
+2024-12-31 22:47:26,320 [INFO] WebDriver closed successfully
