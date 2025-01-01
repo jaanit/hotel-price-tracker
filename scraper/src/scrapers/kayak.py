@@ -282,12 +282,7 @@ class KayakHotelScraper:
                 info['price'] = price_elem.text.strip()
             except:
                 info['price'] = None
-            # extract hotel image
-            try:
-                img_elem = hotel_element.find_element(By.CSS_SELECTOR, 'img[class*="e9fk-photo"]')
-                hotel_info['image_url'] = img_elem.get_attribute('src')
-            except NoSuchElementException:
-                hotel_info['image_url'] = 'N/A'
+            
             return info
             
         except Exception as e:
@@ -345,13 +340,6 @@ class KayakHotelScraper:
                     
                     if info.get('detail_url'):
                         hotels_to_process.append(info)
-                    # extract hotel image
-                    try:
-                        img_elem = hotel_element.find_element(By.CSS_SELECTOR, 'img[class*="e9fk-photo"]')
-                        hotel_info['image_url'] = img_elem.get_attribute('src')
-                    except NoSuchElementException:
-                        hotel_info['image_url'] = 'N/A'
-                        
                     
                 except Exception as e:
                     self.logger.error(f"Error extracting basic hotel info: {str(e)}")

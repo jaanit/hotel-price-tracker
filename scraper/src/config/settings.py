@@ -24,7 +24,6 @@ SELECTORS = {
     'hotel_description': '.b40a-desc-text, .b40a-desc-wrap--full',
     'hotel_address': '.c3xth-address',
     'room_card': '.c5l3f',
-    'hotel_image': '.e9fk-photo',
 }
 
 # Create data directory if it doesn't exist

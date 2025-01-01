@@ -2,8 +2,36 @@
   "city": "Errachidia",
   "hotels": [
     {
+      "hotel_name": "Ighiz Inn Resort",
+      "detail_url": "https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview",
+      "location": "Nearby - Forkan Mosque, Garden Boutalamine",
+      "review_scores": {
+        "rating": 8.0,
+        "count": 379
+      },
+      "price": "$40",
+      "rooms": [
+        {
+          "room_type": "Double or Twin Room with Garden View",
+          "price": 40.0,
+          "bed_configuration": "1 double bed",
+          "cancellation_policy": "Free cancellation",
+          "board_type": "Free breakfast",
+          "special_conditions": []
+        },
+        {
+          "room_type": "Two-Bedroom Bungalow",
+          "price": 60.0,
+          "bed_configuration": null,
+          "cancellation_policy": "Free cancellation",
+          "board_type": "Free breakfast",
+          "special_conditions": []
+        }
+      ]
+    },
+    {
       "hotel_name": "Kasbah Hotel Camping Jurassique",
-      "detail_url": "https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview",
       "location": "Nearby - Errachidia Chamber of Commerce, Garden Boutalamine",
       "review_scores": {
         "rating": 8.5,
@@ -46,36 +74,8 @@
       ]
     },
     {
-      "hotel_name": "Ighiz Inn Resort",
-      "detail_url": "https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview",
-      "location": "Nearby - Forkan Mosque, Garden Boutalamine",
-      "review_scores": {
-        "rating": 8.0,
-        "count": 379
-      },
-      "price": "$40",
-      "rooms": [
-        {
-          "room_type": "Double or Twin Room with Garden View",
-          "price": 40.0,
-          "bed_configuration": "2 twin beds",
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        },
-        {
-          "room_type": "Two-Bedroom Bungalow",
-          "price": 60.0,
-          "bed_configuration": null,
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        }
-      ]
-    },
-    {
       "hotel_name": "HN Home House with air conditioning garage included Free",
-      "detail_url": "https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview",
       "location": "Nearby - Forkan Mosque, Errachidia Chamber of Commerce",
       "review_scores": {
         "rating": 8.5,
@@ -95,7 +95,7 @@
     },
     {
       "hotel_name": "Maison Vallée Du Ziz",
-      "detail_url": "https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview",
       "location": "Nearby - Errachidia Chamber of Commerce, Forkan Mosque",
       "review_scores": {
         "rating": 9.2,
@@ -106,7 +106,7 @@
         {
           "room_type": "Deluxe Double or Twin Room",
           "price": 62.0,
-          "bed_configuration": "2 twin beds",
+          "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
           "board_type": "Free breakfast",
           "special_conditions": []
@@ -121,7 +121,7 @@
         },
         {
           "room_type": "Triple Room",
-          "price": 85.0,
+          "price": 86.0,
           "bed_configuration": null,
           "cancellation_policy": "Free cancellation",
           "board_type": "Free breakfast",
@@ -139,7 +139,7 @@
     },
     {
       "hotel_name": "Résidence Sehrawilocation",
-      "detail_url": "https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejHEPnA3Lr&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=eSEkSEBJxr&pm=daybase#overview",
       "location": "Nearby - Garden Boutalamine, Forkan Mosque",
       "review_scores": {
         "rating": 9.0,
@@ -164,7 +164,7 @@
   },
   "metadata": {
     "scraping_date": "2024-12-31",
-    "scraping_time": "22:47",
+    "scraping_time": "14:32",
     "source_url": "https://www.kayak.com/hotels"
   }
 }

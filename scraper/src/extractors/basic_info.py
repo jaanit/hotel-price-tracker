@@ -4,7 +4,7 @@ from ..utils.retry import find_element_with_retry
 from ..utils.selectors import (
     HOTEL_NAME, HOTEL_LOCATION, HOTEL_RATING,
     HOTEL_REVIEWS, HOTEL_STARS, PRICE_AMOUNT,
-    HOTEL_DESCRIPTION, HOTEL_IMAGE
+    HOTEL_DESCRIPTION
 )
 
 class BasicInfoExtractor:
@@ -20,7 +20,6 @@ class BasicInfoExtractor:
                 if name_elem:
                     hotel_info['name'] = name_elem.text.strip()
                     hotel_info['detail_url'] = name_elem.get_attribute('href')
-                    
                 else:
                     logger.warning("Could not find hotel name/URL")
                     return None
@@ -62,12 +61,6 @@ class BasicInfoExtractor:
                     hotel_info['price'] = price_elem.text.strip()
             except NoSuchElementException:
                 hotel_info['price'] = None
-            # get hotel image
-            try:
-                img_elem = hotel_element.find_element(By.CSS_SELECTOR, 'img[class*="e9fk-photo"]')
-                hotel_info['image_url'] = img_elem.get_attribute('src')
-            except NoSuchElementException:
-                hotel_info['image_url'] = 'N/A'
 
             # Get rating and reviews
             try:
