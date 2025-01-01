@@ -1214,3 +1214,6 @@ Stacktrace:
 2025-01-01 22:58:28,558 [INFO] Found 1 room elements
 2025-01-01 22:58:39,829 [INFO] Successfully extracted room: All deals
 2025-01-01 22:58:39,836 [INFO] Found 1 room types
+2025-01-01 23:00:02,151 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:00:46,116 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:00:48,654 [INFO] WebDriver closed successfully
