@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Search, Heart, Star, MapPin, Coffee, Wifi, Car, ChevronLeft, ChevronRight, X, Sun, Moon } from 'lucide-react'
+import { Search, Heart, Star, MapPin, Coffee, Wifi, Car, ChevronLeft, ChevronRight, Sun, Moon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -11,6 +11,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+const amenityIcons = {
+  wifi: <Wifi className="h-4 w-4" />,
+  parking: <Car className="h-4 w-4" />,
+  coffee: <Coffee className="h-4 w-4" />,
+}
 import {
   Card,
   CardContent,
@@ -28,12 +33,6 @@ import { Badge } from "@/components/ui/badge"
 import { motion, AnimatePresence } from 'framer-motion'
 
 import hotelData from '../../../../scraper/notebooks/data/hotel_data.json'
-
-const amenityIcons = {
-  wifi: <Wifi className="h-4 w-4" />,
-  parking: <Car className="h-4 w-4" />,
-  coffee: <Coffee className="h-4 w-4" />,
-}
 
 interface Room {
   room_type: string;
@@ -77,8 +76,8 @@ export default function HotelSearch() {
       (priceFilter === 'luxury' && hotel.rooms[0].price > 200);
 
     const ratingMatch = ratingFilter === 'all' ||
-      (ratingFilter === '4plus' && hotel.review_scores.rating >= 4) ||
-      (ratingFilter === '3plus' && hotel.review_scores.rating >= 3);
+      (ratingFilter === '6+' && hotel.review_scores.rating >= 6) ||
+      (ratingFilter === '0-6' && hotel.review_scores.rating >= 0 && hotel.review_scores.rating < 6);
 
     return isNameOrLocationMatch && priceMatch && ratingMatch;
   })
@@ -96,7 +95,7 @@ export default function HotelSearch() {
     return 0
   })
 
-  const hotelsPerPage = 5
+  const hotelsPerPage = 4
   const indexOfLastHotel = currentPage * hotelsPerPage
   const indexOfFirstHotel = indexOfLastHotel - hotelsPerPage
   const currentHotels = sortedHotels.slice(indexOfFirstHotel, indexOfLastHotel)
@@ -190,8 +189,8 @@ export default function HotelSearch() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">All Ratings</SelectItem>
-                  <SelectItem value="4plus">4+ Stars</SelectItem>
-                  <SelectItem value="3plus">3+ Stars</SelectItem>
+                  <SelectItem value="6+">6+ Stars</SelectItem>
+                  <SelectItem value="0-6">0 - 6 Stars</SelectItem>
                 </SelectContent>
               </Select>
               <Button
@@ -218,8 +217,8 @@ export default function HotelSearch() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className={`mb-6 overflow-hidden transition-all hover:shadow-xl rounded-3xl max-w-4xl mx-auto ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white'}`}>
-                <CardContent className="p-0">
-                  <div className="flex flex-col sm:flex-row">
+                <CardContent className="p-2 ">
+                  <div className="flex flex-col sm:flex-row ">
                     <div className="relative w-full sm:w-1/3 h-64 sm:h-auto overflow-hidden group">
                       <img
                         src={hotel.image_url}
@@ -242,7 +241,7 @@ export default function HotelSearch() {
                           <MapPin className="h-4 w-4" />
                           {hotel.location}
                         </div>
-                        <div className="flex items-center gap-2 mb-4">
+                        <div className="flex items-center gap-2 my-2">
                           <Badge variant="secondary" className={`rounded-full px-3 py-1 ${isDarkMode ? 'bg-purple-900 text-purple-200' : 'bg-purple-100 text-purple-800'}`}>
                             <Star className="h-4 w-4 mr-1 fill-yellow-400 text-yellow-400" />
                             {hotel.review_scores.rating}
