@@ -151,7 +151,6 @@ export default function HotelSearch() {
         >
           We compare hotel prices from hundreds of sites
         </motion.h1>
-
         <motion.div
           className={`sticky top-4 z-10 rounded-3xl shadow-lg p-3 mb-8 transition-colors duration-300 ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
           initial={{ opacity: 0, scale: 0.9 }}

@@ -19,19 +19,19 @@ interface Image {
 export default function HotelImages({ images }: { images: Image[] }) {
 
   if (!images || images.length === 0) {
-    return null;
+    return null; 
   }
 
   return (
     <div className="flex flex-col rounded-md">
       <Carousel
-        className="relative rounded-md overflow-hidden"
+        className="max-w-sm"
       >
         <CarouselContent>
           {images.map((image, index) => {
             return (
               <CarouselItem key={index}>
-                <Card className="border-0 mr-2">
+                <Card className="border-0">
                   <CardContent className="flex rounded-md items-center justify-center p-0">
                     <Image
                       src={image.url}
