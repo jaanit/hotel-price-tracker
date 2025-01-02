@@ -151,14 +151,7 @@ export default function HotelSearch() {
         >
           We compare hotel prices from hundreds of sites
         </motion.h1>
-        <motion.h1
-          className="text-lg font-serif mb-8 text-center tracking-tight bg-clip-text text-transparent bg-primary dark:from-purple-400 dark:to-pink-400"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          We compare hotel prices from hundreds of sites
-        </motion.h1>
+
         <motion.div
           className={`sticky top-4 z-10 rounded-3xl shadow-lg p-3 mb-8 transition-colors duration-300 ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
           initial={{ opacity: 0, scale: 0.9 }}
@@ -243,7 +236,7 @@ export default function HotelSearch() {
               exit={{ opacity: 0, y: -50 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className={`mb-6 overflow-hidden transition-all hover:shadow-xl rounded-3xl max-w-4xl mx-auto ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white'}`}>
+              <Card className={`mb-6 overflow-hidden transition-all p-2 hover:shadow-xl rounded-3xl max-w-4xl mx-auto ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white'}`}>
                 <CardContent className="p-2 ">
                   <div className="flex flex-col sm:flex-row ">
                     <div className="relative w-full sm:w-1/3 h-64 sm:h-auto overflow-hidden group">
