@@ -2,14 +2,131 @@
   "city": "Paris, France",
   "hotels": [
     {
+      "hotel_name": "Lovely 1 bedroom apartment with indoor fireplace",
+      "detail_url": "https://www.kayak.com/hotels/Lovely-1-bedroom-apartment-with-indoor-fireplace,Paris-p37687-h1070546032-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
+      "location": "0.0 mi from Paris, France",
+      "review_scores": {
+        "rating": null,
+        "count": null
+      },
+      "price": "$300",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/7a/31/44/expediav2-1070546032-3487064204-478543.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Lovely 1 bedroom apartment with indoor fireplace",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/f9/8e/63/expedia_group-1070546032-16014380-858619.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Other view of Lovely 1 bedroom apartment with indoor fireplace",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/64/fb/81/expedia_group-1070546032-69c46aff-945996.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Other view of Lovely 1 bedroom apartment with indoor fireplace",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/01/ba/80/expediav2-1070546032-3993184313-498051.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Lovely 1 bedroom apartment with indoor fireplace",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/1c/0f/ef/expedia_group-1070546032-2e903b3a-904255.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Lovely 1 bedroom apartment with indoor fireplace",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "All deals",
+          "price": 300.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Air-conditioned",
+        "Fireplace",
+        "Coffee grinder",
+        "Kettle",
+        "Blender",
+        "Dishwasher",
+        "Ice maker",
+        "Free Wi-Fi",
+        "Heating"
+      ]
+    },
+    {
+      "hotel_name": "L'appart du centre",
+      "detail_url": "https://www.kayak.com/hotels/Lappart-du-centre,Paris-p37687-h9304897-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
+      "review_scores": {
+        "rating": 9.5,
+        "count": 29
+      },
+      "price": "$440",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/a0/8d/0e/expedia_group-9304897-b0dc8b-367432.jpg?width=1020&height=1020&xhint=520&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of L'appart du centre",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/5b/ba/21/expedia_group-9304897-2300b0-441928.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Kitchen view of L'appart du centre",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/47/a2/d1/expedia_group-9304897-0c4084-289152.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of L'appart du centre",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/41/a0/19/expedia_group-9304897-a24bea-408615.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Dining room view of L'appart du centre",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/63/a1/b0/expedia_group-9304897-1abd9a-322609.jpg?width=1020&height=1020&xhint=520&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Other view of L'appart du centre",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "All deals",
+          "price": 440.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Pool table",
+        "Air-conditioned",
+        "Coffee machine",
+        "Washing machine",
+        "Linens",
+        "Towels",
+        "Flat-screen TV",
+        "Internet",
+        "Hairdryer"
+      ]
+    },
+    {
       "hotel_name": "Hotel Andrea",
-      "detail_url": "https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
       "location": "0.1 mi from Paris, France",
       "review_scores": {
         "rating": null,
         "count": null
       },
-      "price": "$129",
+      "price": "$149",
       "images": [
         {
           "url": "https://content.r9cdn.net/rimg/himg/27/41/d8/leonardo-2150261-Deluxe_Balcony_Room_(1)_O-529639.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
@@ -47,24 +164,8 @@
           "special_conditions": []
         },
         {
-          "room_type": "Deluxe Double Room with Balcony",
-          "price": 160.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Deluxe Double Room, Balcony, Executive Level (top floor)",
-          "price": 185.0,
-          "bed_configuration": "1 king bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
           "room_type": "Other deals",
-          "price": 129.0,
+          "price": 133.0,
           "bed_configuration": null,
           "cancellation_policy": "Free cancellation",
           "board_type": null,
@@ -85,8 +186,126 @@
       ]
     },
     {
+      "hotel_name": "New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+      "detail_url": "https://www.kayak.com/hotels/New-Modern-and-cozy-flat.-heart-of-Paris-Swamp-center-Halls,Paris-p37687-h7285418-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
+      "review_scores": {
+        "rating": null,
+        "count": null
+      },
+      "price": "$135",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/f1/94/54/expedia_group-7285418-496cb4-926733.jpg?width=1020&height=1020&xhint=500&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/42/33/ca/expedia_group-7285418-868c6f-061816.jpg?width=1020&height=1020&xhint=520&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/e0/4e/fb/expedia_group-7285418-fce181-043188.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/35/a4/7b/homeawayv2-73118241831999770-76f6904e.c10-661078.jpg?width=1020&height=1020&xhint=256&yhint=506&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/35/80/1c/expedia_group-7285418-1c30fb-097401.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of New! Modern and cozy flat. heart of Paris! Swamp center! Halls!",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "All deals",
+          "price": 135.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Air-conditioned",
+        "Coffee machine",
+        "Washing machine",
+        "Clothes dryer",
+        "Linens",
+        "Towels",
+        "TV",
+        "Internet",
+        "Kid-friendly"
+      ]
+    },
+    {
+      "hotel_name": "Studio Victoria - Centre de Paris",
+      "detail_url": "https://www.kayak.com/hotels/Studio-Victoria,Centre-de-Paris,Paris-p37687-h1071862569-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
+      "review_scores": {
+        "rating": 10.0,
+        "count": 6
+      },
+      "price": "$195",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/18/fd/83/booking-1071862569-601671603-365679.jpg?width=1020&height=1020&xhint=187&yhint=220&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Studio Victoria - Centre de Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/30/96/8b/expedia_group-1071862569-120771174-499688.jpg?width=1020&height=1020&xhint=500&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Outdoors view view of Studio Victoria - Centre de Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/99/09/bc/expedia_group-1071862569-198194384-476410.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Outdoors view view of Studio Victoria - Centre de Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/e8/fa/ff/expedia_group-1071862569-214344880-505483.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Studio Victoria - Centre de Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/63/8d/9a/expedia_group-1071862569-4997805-482320.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of Studio Victoria - Centre de Paris",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "All deals",
+          "price": 195.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Air-conditioned",
+        "Coffee machine",
+        "Washing machine",
+        "Tumble dryer",
+        "Internet",
+        "Cribs available",
+        "Microwave",
+        "Refrigerator",
+        "No smoking"
+      ]
+    },
+    {
       "hotel_name": "Stunning apartment with view at the very heart of Paris",
-      "detail_url": "https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
       "location": "0.1 mi from Paris, France",
       "review_scores": {
         "rating": 9.5,
@@ -145,7 +364,7 @@
     },
     {
       "hotel_name": "Hotel Duo",
-      "detail_url": "https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "detail_url": "https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview",
       "location": "0.1 mi from Paris, France",
       "review_scores": {
         "rating": 8.5,
@@ -189,40 +408,8 @@
           "special_conditions": []
         },
         {
-          "room_type": "Standard Twin Room 14m2",
-          "price": 212.0,
-          "bed_configuration": "2 twin beds",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Superior Twin Room",
-          "price": 222.0,
-          "bed_configuration": "2 twin beds",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Superior Double Room",
-          "price": 222.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Double Room - Ground Floor 16m2",
-          "price": 246.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
           "room_type": "Other deals",
-          "price": 188.0,
+          "price": 183.0,
           "bed_configuration": null,
           "cancellation_policy": null,
           "board_type": "Free breakfast",
@@ -241,156 +428,6 @@
         "TV",
         "Cable or satellite TV"
       ]
-    },
-    {
-      "hotel_name": "D'win",
-      "detail_url": "https://www.kayak.com/hotels/Dwin,Paris-p37687-h2014819-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
-      "location": "0.1 mi from Paris, France",
-      "review_scores": {
-        "rating": null,
-        "count": null
-      },
-      "price": "$116",
-      "images": [
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/c2/fc/76/expedia_group-2014819-92526552-850116.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Dining room view of D'win",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/3a/7f/4e/expedia_group-2014819-7e0f67-104203.jpg?width=1020&height=1020&xhint=500&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Bedroom view of D'win",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/87/9d/dc/leonardo-2150816-37399_Room52_O-348303.jpg?width=1020&height=1020&xhint=532&yhint=296&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Bedroom view of D'win",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/4a/17/f4/expedia_group-2014819-262fac-898669.jpg?width=1020&height=1020&xhint=480&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Front desk view of D'win",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/0e/bf/c0/expedia_group-2014819-1b2cf0-835139.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Bedroom view of D'win",
-          "type": "detail"
-        }
-      ],
-      "rooms": [
-        {
-          "room_type": "Superior Double Room",
-          "price": 116.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Deluxe Double Room",
-          "price": 127.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Comfort Double Room",
-          "price": 134.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        }
-      ],
-      "amenities": [
-        "Bar/Lounge",
-        "Room service",
-        "Free Wi-Fi",
-        "Wi-Fi available in all areas",
-        "Flat-screen TV",
-        "TV",
-        "Cable or satellite TV",
-        "Free toiletries",
-        "Internet",
-        "Pets allowed on request. Charges may apply."
-      ]
-    },
-    {
-      "hotel_name": "Marais Lovely",
-      "detail_url": "https://www.kayak.com/hotels/Marais-Lovely,Paris-p37687-h2349406-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
-      "location": "0.1 mi from Paris, France",
-      "review_scores": {
-        "rating": 8.7,
-        "count": 465
-      },
-      "price": "$144",
-      "images": [
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/8b/c3/4d/ostrovok-2349406-e0f8c2-685406.jpg?width=1020&height=1020&xhint=552&yhint=340&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Dining room view of Marais Lovely",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/03/ba/c3/ostrovok-2349406-efe33f-610471.jpg?width=1020&height=1020&xhint=255&yhint=568&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Building view of Marais Lovely",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/e8/71/56/ostrovok-2349406-9158c8-669353.jpg?width=1020&height=1020&xhint=552&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Living room view of Marais Lovely",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/a4/38/d7/ostrovok-2349406-d9fa67-690608.jpg?width=1020&height=1020&xhint=552&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Bathroom view of Marais Lovely",
-          "type": "detail"
-        },
-        {
-          "url": "https://content.r9cdn.net/rimg/himg/d4/03/1a/ostrovok-2349406-75f29d-674940.jpg?width=1020&height=1020&xhint=512&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
-          "alt": "Living room view of Marais Lovely",
-          "type": "detail"
-        }
-      ],
-      "rooms": [
-        {
-          "room_type": "Studio",
-          "price": 144.0,
-          "bed_configuration": null,
-          "cancellation_policy": null,
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Apartment HOTEL DE VILLE",
-          "price": 184.0,
-          "bed_configuration": null,
-          "cancellation_policy": null,
-          "board_type": null,
-          "special_conditions": []
-        },
-        {
-          "room_type": "Apartment NOTRE DAME",
-          "price": 236.0,
-          "bed_configuration": null,
-          "cancellation_policy": null,
-          "board_type": null,
-          "special_conditions": []
-        }
-      ],
-      "amenities": [
-        "Kitchen",
-        "Air-conditioned",
-        "Coffee machine",
-        "Washing machine",
-        "Tumble dryer",
-        "Towels",
-        "Flat-screen TV",
-        "TV",
-        "Free toiletries",
-        "Internet"
-      ]
     }
   ],
   "pagination": {
@@ -399,7 +436,7 @@
   },
   "metadata": {
     "scraping_date": "2025-01-02",
-    "scraping_time": "15:40",
+    "scraping_time": "21:49",
     "source_url": "https://www.kayak.com/hotels"
   }
 }

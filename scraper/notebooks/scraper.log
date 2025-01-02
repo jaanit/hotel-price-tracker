@@ -1676,3 +1676,159 @@ Stacktrace:
 2025-01-02 15:39:54,632 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
 2025-01-02 15:40:37,803 [INFO] Data saved successfully to data/hotel_data.json
 2025-01-02 15:40:38,542 [INFO] WebDriver closed successfully
+2025-01-02 20:32:57,515 [INFO] WebDriver initialized successfully
+2025-01-02 20:32:57,520 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:33:42,801 [INFO] Found 29 hotels
+2025-01-02 20:33:53,065 [INFO] Extracted basic info for: Lovely 1 bedroom apartment with indoor fireplace
+2025-01-02 20:34:03,475 [INFO] Extracted basic info for: Hotel Andrea
+2025-01-02 20:34:13,623 [INFO] Extracted basic info for: New! Modern and cozy flat. heart of Paris! Swamp center! Halls!
+2025-01-02 20:34:13,815 [INFO] Extracted basic info for: Studio Victoria - Centre de Paris
+2025-01-02 20:34:13,969 [INFO] Extracted basic info for: Stunning apartment with view at the very heart of Paris
+2025-01-02 20:34:13,971 [INFO] Loading detail page: https://www.kayak.com/hotels/Lovely-1-bedroom-apartment-with-indoor-fireplace,Paris-p37687-h1070546032-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:34:13,973 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Lovely-1-bedroom-apartment-with-indoor-fireplace,Paris-p37687-h1070546032-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:34:45,092 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 20:34:45,101 [INFO] Found 5 detail images
+2025-01-02 20:34:47,161 [INFO] Found 1 room elements
+2025-01-02 20:35:08,271 [INFO] Successfully extracted room: All deals
+2025-01-02 20:35:08,274 [INFO] Found 1 room types
+2025-01-02 20:35:10,562 [INFO] Successfully extracted 9 amenities
+2025-01-02 20:35:10,564 [INFO] Found 9 amenities
+2025-01-02 20:35:10,566 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:35:54,791 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:35:54,871 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:36:24,079 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 20:36:24,083 [INFO] Found 5 detail images
+2025-01-02 20:36:26,089 [INFO] Found 2 room elements
+2025-01-02 20:36:27,287 [INFO] Successfully extracted room: Deluxe Double Room
+2025-01-02 20:36:38,432 [INFO] Successfully extracted room: Other deals
+2025-01-02 20:36:38,441 [INFO] Found 2 room types
+2025-01-02 20:36:40,705 [INFO] Successfully extracted 10 amenities
+2025-01-02 20:36:40,713 [INFO] Found 10 amenities
+2025-01-02 20:36:40,715 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:37:23,761 [INFO] Loading detail page: https://www.kayak.com/hotels/New-Modern-and-cozy-flat.-heart-of-Paris-Swamp-center-Halls,Paris-p37687-h7285418-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:37:23,764 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-Modern-and-cozy-flat.-heart-of-Paris-Swamp-center-Halls,Paris-p37687-h7285418-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:37:52,534 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 20:37:52,539 [INFO] Found 5 detail images
+2025-01-02 20:37:54,606 [INFO] Found 1 room elements
+2025-01-02 20:38:15,718 [INFO] Successfully extracted room: All deals
+2025-01-02 20:38:15,741 [INFO] Found 1 room types
+2025-01-02 20:38:17,989 [INFO] Successfully extracted 10 amenities
+2025-01-02 20:38:17,991 [INFO] Found 10 amenities
+2025-01-02 20:38:17,992 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:39:02,429 [INFO] Loading detail page: https://www.kayak.com/hotels/Studio-Victoria,Centre-de-Paris,Paris-p37687-h1071862569-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:39:02,432 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Studio-Victoria,Centre-de-Paris,Paris-p37687-h1071862569-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:39:31,181 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 20:39:31,183 [INFO] Found 5 detail images
+2025-01-02 20:39:33,215 [INFO] Found 1 room elements
+2025-01-02 20:39:54,435 [INFO] Successfully extracted room: All deals
+2025-01-02 20:39:54,437 [INFO] Found 1 room types
+2025-01-02 20:39:56,641 [INFO] Successfully extracted 10 amenities
+2025-01-02 20:39:56,643 [INFO] Found 10 amenities
+2025-01-02 20:39:56,645 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:40:38,458 [INFO] Loading detail page: https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:40:38,463 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=efEkT3BMXE&pm=daybase#overview
+2025-01-02 20:41:06,843 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 20:41:06,846 [INFO] Found 5 detail images
+2025-01-02 20:41:09,038 [INFO] Found 1 room elements
+2025-01-02 20:41:30,171 [INFO] Successfully extracted room: All deals
+2025-01-02 20:41:30,174 [INFO] Found 1 room types
+2025-01-02 20:41:32,426 [INFO] Successfully extracted 10 amenities
+2025-01-02 20:41:32,427 [INFO] Found 10 amenities
+2025-01-02 20:41:32,435 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 20:42:17,493 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 20:42:18,047 [INFO] WebDriver closed successfully
+2025-01-02 21:34:25,363 [INFO] WebDriver initialized successfully
+2025-01-02 21:34:25,367 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:35:07,881 [INFO] Found 29 hotels
+2025-01-02 21:35:28,059 [INFO] Extracted basic info for: Hôtel de Ville paris
+2025-01-02 21:35:48,227 [INFO] Extracted basic info for: Luxury Apartment At The Heart Of Paris Rent
+2025-01-02 21:35:52,619 [INFO] Extracted basic info for: Luxury apartment at the heart of Paris Rent from one week
+2025-01-02 21:35:52,702 [ERROR] Error extracting basic hotel info: HTTPConnectionPool(host='localhost', port=33569): Max retries exceeded with url: /session/32a0aeff970c9cbc242824e8f5ca96c2/element/f.5992266878DBDD3EF7457EB6542BDDAE.d.DE66FD9A2BD8DB6BCDA13C73CBFF5A09.e.8941/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f195041c6d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-02 21:35:52,720 [ERROR] Error extracting basic hotel info: HTTPConnectionPool(host='localhost', port=33569): Max retries exceeded with url: /session/32a0aeff970c9cbc242824e8f5ca96c2/element/f.5992266878DBDD3EF7457EB6542BDDAE.d.DE66FD9A2BD8DB6BCDA13C73CBFF5A09.e.8942/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f195041f550>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-02 21:35:52,723 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-de-Ville-paris,Paris-p37687-h10158123-details/2025-01-10/2025-01-14/2adults?psid=ehHEGmQoU7&pm=daybase#overview
+2025-01-02 21:35:52,799 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-de-Ville-paris,Paris-p37687-h10158123-details/2025-01-10/2025-01-14/2adults?psid=ehHEGmQoU7&pm=daybase#overview
+2025-01-02 21:35:52,810 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=33569): Max retries exceeded with url: /session/32a0aeff970c9cbc242824e8f5ca96c2/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1950426a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-02 21:37:28,942 [INFO] WebDriver initialized successfully
+2025-01-02 21:37:28,945 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:38:07,135 [INFO] Found 29 hotels
+2025-01-02 21:38:17,333 [INFO] Extracted basic info for: Lovely 1 bedroom apartment with indoor fireplace
+2025-01-02 21:38:17,506 [INFO] Extracted basic info for: L'appart du centre
+2025-01-02 21:38:28,156 [INFO] Extracted basic info for: Hotel Andrea
+2025-01-02 21:38:38,260 [INFO] Extracted basic info for: New! Modern and cozy flat. heart of Paris! Swamp center! Halls!
+2025-01-02 21:38:38,417 [INFO] Extracted basic info for: Studio Victoria - Centre de Paris
+2025-01-02 21:38:38,587 [INFO] Extracted basic info for: Stunning apartment with view at the very heart of Paris
+2025-01-02 21:38:38,731 [INFO] Extracted basic info for: Hotel Duo
+2025-01-02 21:38:38,733 [INFO] Loading detail page: https://www.kayak.com/hotels/Lovely-1-bedroom-apartment-with-indoor-fireplace,Paris-p37687-h1070546032-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:38:38,735 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Lovely-1-bedroom-apartment-with-indoor-fireplace,Paris-p37687-h1070546032-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:39:08,153 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:39:08,156 [INFO] Found 5 detail images
+2025-01-02 21:39:10,209 [INFO] Found 1 room elements
+2025-01-02 21:39:31,351 [INFO] Successfully extracted room: All deals
+2025-01-02 21:39:31,357 [INFO] Found 1 room types
+2025-01-02 21:39:33,595 [INFO] Successfully extracted 9 amenities
+2025-01-02 21:39:33,599 [INFO] Found 9 amenities
+2025-01-02 21:39:33,602 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:40:15,691 [INFO] Loading detail page: https://www.kayak.com/hotels/Lappart-du-centre,Paris-p37687-h9304897-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:40:15,693 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Lappart-du-centre,Paris-p37687-h9304897-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:40:46,054 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:40:46,056 [INFO] Found 5 detail images
+2025-01-02 21:40:48,132 [INFO] Found 1 room elements
+2025-01-02 21:41:09,275 [INFO] Successfully extracted room: All deals
+2025-01-02 21:41:09,279 [INFO] Found 1 room types
+2025-01-02 21:41:11,517 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:41:11,519 [INFO] Found 10 amenities
+2025-01-02 21:41:11,521 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:41:53,114 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:41:53,116 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:42:21,305 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:42:21,309 [INFO] Found 5 detail images
+2025-01-02 21:42:23,369 [INFO] Found 2 room elements
+2025-01-02 21:42:24,532 [INFO] Successfully extracted room: Deluxe Double Room
+2025-01-02 21:42:35,689 [INFO] Successfully extracted room: Other deals
+2025-01-02 21:42:35,692 [INFO] Found 2 room types
+2025-01-02 21:42:37,938 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:42:37,940 [INFO] Found 10 amenities
+2025-01-02 21:42:37,942 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:43:18,553 [INFO] Loading detail page: https://www.kayak.com/hotels/New-Modern-and-cozy-flat.-heart-of-Paris-Swamp-center-Halls,Paris-p37687-h7285418-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:43:18,556 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-Modern-and-cozy-flat.-heart-of-Paris-Swamp-center-Halls,Paris-p37687-h7285418-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:43:47,820 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:43:47,823 [INFO] Found 5 detail images
+2025-01-02 21:43:49,897 [INFO] Found 1 room elements
+2025-01-02 21:44:11,022 [INFO] Successfully extracted room: All deals
+2025-01-02 21:44:11,025 [INFO] Found 1 room types
+2025-01-02 21:44:13,285 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:44:13,290 [INFO] Found 10 amenities
+2025-01-02 21:44:13,292 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:44:57,038 [INFO] Loading detail page: https://www.kayak.com/hotels/Studio-Victoria,Centre-de-Paris,Paris-p37687-h1071862569-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:44:57,041 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Studio-Victoria,Centre-de-Paris,Paris-p37687-h1071862569-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:45:25,564 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:45:25,566 [INFO] Found 5 detail images
+2025-01-02 21:45:27,631 [INFO] Found 1 room elements
+2025-01-02 21:45:48,814 [INFO] Successfully extracted room: All deals
+2025-01-02 21:45:48,816 [INFO] Found 1 room types
+2025-01-02 21:45:51,167 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:45:51,169 [INFO] Found 10 amenities
+2025-01-02 21:45:51,172 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:46:32,831 [INFO] Loading detail page: https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:46:32,875 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:47:03,039 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:47:03,042 [INFO] Found 5 detail images
+2025-01-02 21:47:05,239 [INFO] Found 1 room elements
+2025-01-02 21:47:26,510 [INFO] Successfully extracted room: All deals
+2025-01-02 21:47:26,512 [INFO] Found 1 room types
+2025-01-02 21:47:28,717 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:47:28,719 [INFO] Found 10 amenities
+2025-01-02 21:47:28,723 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:48:09,817 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:48:09,830 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=ehEEHjLz6I&pm=daybase#overview
+2025-01-02 21:48:38,623 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 21:48:38,627 [INFO] Found 5 detail images
+2025-01-02 21:48:40,684 [INFO] Found 2 room elements
+2025-01-02 21:48:41,864 [INFO] Successfully extracted room: Standard Double Room 14m2
+2025-01-02 21:48:53,018 [INFO] Successfully extracted room: Other deals
+2025-01-02 21:48:53,020 [INFO] Found 2 room types
+2025-01-02 21:48:57,658 [INFO] Successfully extracted 10 amenities
+2025-01-02 21:48:57,660 [INFO] Found 10 amenities
+2025-01-02 21:48:57,661 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 21:49:38,744 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 21:49:45,432 [INFO] WebDriver closed successfully
