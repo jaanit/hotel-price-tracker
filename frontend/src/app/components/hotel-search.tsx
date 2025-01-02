@@ -1,25 +1,32 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import { Search, Heart, Star, MapPin, Coffee, Wifi, Car, ChevronLeft, ChevronRight, Sun, Moon } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { useState, useEffect } from "react";
+import {
+  Search,
+  Heart,
+  Star,
+  MapPin,
+  Coffee,
+  Wifi,
+  Car,
+  ChevronLeft,
+  ChevronRight,
+  Sun,
+  Moon,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-const amenityIcons = {
-  wifi: <Wifi className="h-4 w-4" />,
-  parking: <Car className="h-4 w-4" />,
-  coffee: <Coffee className="h-4 w-4" />,
-}
+} from "@/components/ui/select";
 import {
   Card,
   CardContent,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
 import {
   Dialog,
   DialogContent,
@@ -27,12 +34,12 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Badge } from "@/components/ui/badge"
-import { motion, AnimatePresence } from 'framer-motion'
-
-import hotelData from '../../../../scraper/notebooks/data/hotel_data.json'
+} from "@/components/ui/dialog";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Badge } from "@/components/ui/badge";
+import { motion, AnimatePresence } from "framer-motion";
+import hotelData from "../../../../scraper/notebooks/data/hotel_data.json";
+import HotelImages from "./HotelImages";
 
 interface Room {
   room_type: string;
@@ -55,67 +62,79 @@ interface Hotel {
   rooms: Room[];
   image_url: string;
   hotel_link: string;
+  images: { url: string; alt: string }[];
 }
 
-export default function HotelSearch() {
-  const [searchQuery, setSearchQuery] = useState('')
-  const [sortBy, setSortBy] = useState('recommended')
-  const [priceFilter, setPriceFilter] = useState('all')
-  const [ratingFilter, setRatingFilter] = useState('all')
-  const [currentPage, setCurrentPage] = useState(1)
-  const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null)
-  const [isDarkMode, setIsDarkMode] = useState(true)
+const amenityIcons = {
+  wifi: <Wifi className="h-4 w-4" />,
+  parking: <Car className="h-4 w-4" />,
+  coffee: <Coffee className="h-4 w-4" />,
+};
 
-  const filteredHotels = hotelData.hotels.filter((hotel: any) => {
-    const isNameOrLocationMatch = hotel.hotel_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+export default function HotelSearch() {
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [sortBy, setSortBy] = useState<string>("recommended");
+  const [priceFilter, setPriceFilter] = useState<string>("all");
+  const [ratingFilter, setRatingFilter] = useState<string>("all");
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
+
+  const filteredHotels = hotelData.hotels.filter((hotel: Hotel) => {
+    const isNameOrLocationMatch =
+      hotel.hotel_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       hotel.location.toLowerCase().includes(searchQuery.toLowerCase());
 
-    const priceMatch = priceFilter === 'all' ||
-      (priceFilter === 'budget' && hotel.rooms[0].price <= 100) ||
-      (priceFilter === 'mid' && hotel.rooms[0].price > 100 && hotel.rooms[0].price <= 200) ||
-      (priceFilter === 'luxury' && hotel.rooms[0].price > 200);
+    const priceMatch =
+      priceFilter === "all" ||
+      (priceFilter === "budget" && hotel.rooms[0].price <= 100) ||
+      (priceFilter === "mid" && hotel.rooms[0].price > 100 && hotel.rooms[0].price <= 200) ||
+      (priceFilter === "luxury" && hotel.rooms[0].price > 200);
 
-    const ratingMatch = ratingFilter === 'all' ||
-      (ratingFilter === '6+' && hotel.review_scores.rating >= 6) ||
-      (ratingFilter === '0-6' && hotel.review_scores.rating >= 0 && hotel.review_scores.rating < 6);
+    const ratingMatch =
+      ratingFilter === "all" ||
+      (ratingFilter === "6+" && hotel.review_scores.rating >= 6) ||
+      (ratingFilter === "0-6" && hotel.review_scores.rating >= 0 && hotel.review_scores.rating < 6);
 
     return isNameOrLocationMatch && priceMatch && ratingMatch;
-  })
+  });
 
   const sortedHotels = [...filteredHotels].sort((a, b) => {
-    if (sortBy === 'price-asc') {
-      return a.rooms[0].price - b.rooms[0].price
+    if (sortBy === "price-asc") {
+      return a.rooms[0].price - b.rooms[0].price;
     }
-    if (sortBy === 'price-desc') {
-      return b.rooms[0].price - a.rooms[0].price
+    if (sortBy === "price-desc") {
+      return b.rooms[0].price - a.rooms[0].price;
     }
-    if (sortBy === 'rating') {
-      return b.review_scores.rating - a.review_scores.rating
+    if (sortBy === "rating") {
+      return (b.review_scores.rating || 0) - (a.review_scores.rating || 0);
     }
-    return 0
-  })
+    return 0;
+  });
 
-  const hotelsPerPage = 4
-  const indexOfLastHotel = currentPage * hotelsPerPage
-  const indexOfFirstHotel = indexOfLastHotel - hotelsPerPage
-  const currentHotels = sortedHotels.slice(indexOfFirstHotel, indexOfLastHotel)
+  const hotelsPerPage = 4;
+  const indexOfLastHotel = currentPage * hotelsPerPage;
+  const indexOfFirstHotel = indexOfLastHotel - hotelsPerPage;
+  const currentHotels = sortedHotels.slice(indexOfFirstHotel, indexOfLastHotel);
 
-  const totalPages = Math.ceil(sortedHotels.length / hotelsPerPage)
+  const totalPages = Math.ceil(sortedHotels.length / hotelsPerPage);
 
-  const paginate = (pageNumber: number) => setCurrentPage(pageNumber)
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   useEffect(() => {
-    setCurrentPage(1)
-  }, [searchQuery, sortBy, priceFilter, ratingFilter])
+    setCurrentPage(1);
+  }, [searchQuery, sortBy, priceFilter, ratingFilter]);
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-    document.documentElement.classList.toggle('light')
-  }
+    setIsDarkMode(!isDarkMode);
+    document.documentElement.classList.toggle("light");
+  };
 
   return (
-    <section className={`py-12 min-h-screen transition-colors duration-300 px-2 ${isDarkMode ? 'dark bg-gray-900' : 'bg-gray-100'}`}>
-      <div className="container mx-auto px-4 relative max-w-7xl ">
+    <section
+      className={`py-12 min-h-screen transition-colors duration-300 px-2 ${isDarkMode ? "dark bg-gray-900" : "bg-gray-100"}`}
+    >
+      <div className="container mx-auto px-4 relative max-w-7xl">
         <motion.h1
           className="text-5xl font-serif mb-1 text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400"
           initial={{ opacity: 0, y: -50 }}
@@ -123,6 +142,14 @@ export default function HotelSearch() {
           transition={{ duration: 0.5 }}
         >
           Discover Your Dream Getaway
+        </motion.h1>
+        <motion.h1
+          className="text-lg font-serif mb-8 text-center tracking-tight bg-clip-text text-transparent bg-primary dark:from-purple-400 dark:to-pink-400"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          We compare hotel prices from hundreds of sites
         </motion.h1>
         <motion.h1
           className="text-lg font-serif mb-8 text-center tracking-tight bg-clip-text text-transparent bg-primary dark:from-purple-400 dark:to-pink-400"
@@ -220,11 +247,7 @@ export default function HotelSearch() {
                 <CardContent className="p-2 ">
                   <div className="flex flex-col sm:flex-row ">
                     <div className="relative w-full sm:w-1/3 h-64 sm:h-auto overflow-hidden group">
-                      <img
-                        src={hotel.image_url}
-                        alt={hotel.hotel_name}
-                        className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
-                      />
+                      <HotelImages images={hotel.images} />
                       <Button
                         variant="ghost"
                         size="icon"
@@ -279,11 +302,7 @@ export default function HotelSearch() {
                               </DialogHeader>
                               <div className="grid gap-4">
                                 <div className="grid grid-cols-2 items-center gap-4">
-                                  <img
-                                    src={selectedHotel?.image_url}
-                                    alt={selectedHotel?.hotel_name}
-                                    className="w-full h-auto rounded-lg"
-                                  />
+                                <HotelImages images={hotel.images} />
                                   <div>
                                     <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'} mb-2`}>{selectedHotel?.location}</p>
                                     <div className="flex items-center gap-2 mb-2">
@@ -377,7 +396,7 @@ export default function HotelSearch() {
           </div>
         )}
       </div>
+     
     </section>
   )
 }
-

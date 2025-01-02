@@ -1,43 +1,129 @@
 {
-  "city": "Errachidia",
+  "city": "Paris, France",
   "hotels": [
     {
-      "hotel_name": "Kasbah Hotel Camping Jurassique",
-      "detail_url": "https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview",
-      "location": "Nearby - Errachidia Chamber of Commerce, Garden Boutalamine",
+      "hotel_name": "Hotel Andrea",
+      "detail_url": "https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
       "review_scores": {
-        "rating": 8.5,
-        "count": 924
+        "rating": null,
+        "count": null
       },
-      "price": "$22",
+      "price": "$129",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/27/41/d8/leonardo-2150261-Deluxe_Balcony_Room_(1)_O-529639.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Hotel Andrea",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/kimg/86/96/5f1b04b1-5e2c1007-13.jpg?width=1020&height=1020&xhint=896&yhint=498&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Hotel Andrea",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/kimg/86/96/5f1b04b1-5e2c0fd2-8.jpg?width=1020&height=1020&xhint=864&yhint=533&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of Hotel Andrea",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/07/44/15/leonardo-2150261-Superior_Bathroom_O-228440.jpg?width=1020&height=1020&xhint=1476&yhint=1259&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Hotel Andrea",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/ae/3f/32/leonardo-2150261-Club_Bathroom_O-234182.jpg?width=1020&height=1020&xhint=1535&yhint=974&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Hotel Andrea",
+          "type": "detail"
+        }
+      ],
       "rooms": [
         {
-          "room_type": "Standard Double Room",
-          "price": 22.0,
+          "room_type": "Deluxe Double Room",
+          "price": 149.0,
           "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
           "board_type": null,
           "special_conditions": []
         },
         {
-          "room_type": "Twin Room with Garden View",
-          "price": 24.0,
-          "bed_configuration": "2 twin beds",
+          "room_type": "Deluxe Double Room with Balcony",
+          "price": 160.0,
+          "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
           "board_type": null,
           "special_conditions": []
         },
         {
-          "room_type": "Standard Triple Room",
-          "price": 26.0,
+          "room_type": "Deluxe Double Room, Balcony, Executive Level (top floor)",
+          "price": 185.0,
+          "bed_configuration": "1 king bed",
+          "cancellation_policy": "Free cancellation",
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Other deals",
+          "price": 129.0,
           "bed_configuration": null,
           "cancellation_policy": "Free cancellation",
           "board_type": null,
           "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Room service",
+        "Free Wi-Fi",
+        "Tea/coffee maker",
+        "Coffee machine",
+        "Wi-Fi available in all areas",
+        "Flat-screen TV",
+        "TV",
+        "Cable or satellite TV",
+        "Free toiletries",
+        "Airport shuttle"
+      ]
+    },
+    {
+      "hotel_name": "Stunning apartment with view at the very heart of Paris",
+      "detail_url": "https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
+      "review_scores": {
+        "rating": 9.5,
+        "count": 36
+      },
+      "price": "$340",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/2b/a0/3f/booking-1070433131-357757843-068159.jpg?width=1020&height=1020&xhint=403&yhint=230&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Dining room view of Stunning apartment with view at the very heart of Paris",
+          "type": "detail"
         },
         {
-          "room_type": "Classic Quadruple Room",
-          "price": 33.0,
+          "url": "https://content.r9cdn.net/rimg/himg/c3/34/58/booking-1070433131-357757858-922131.jpg?width=1020&height=1020&xhint=504&yhint=230&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of Stunning apartment with view at the very heart of Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/56/b2/5d/booking-1070433131-351017714-291442.jpg?width=1020&height=1020&xhint=403&yhint=230&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Other view of Stunning apartment with view at the very heart of Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/ec/0e/21/booking-1070433131-357757652-949220.jpg?width=1020&height=1020&xhint=470&yhint=230&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Dining room view of Stunning apartment with view at the very heart of Paris",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/36/a0/88/booking-1070433131-357757840-054478.jpg?width=1020&height=1020&xhint=520&yhint=230&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Other view of Stunning apartment with view at the very heart of Paris",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "All deals",
+          "price": 340.0,
           "bed_configuration": null,
           "cancellation_policy": null,
           "board_type": null,
@@ -45,84 +131,12 @@
         }
       ],
       "amenities": [
-        "Outdoor pool",
-        "Indoor pool",
-        "Restaurant",
-        "Bar/Lounge",
-        "Room service",
-        "Free Wi-Fi",
-        "Free parking",
-        "Free toiletries",
-        "Meeting/Banquet facilities",
-        "Internet"
-      ]
-    },
-    {
-      "hotel_name": "Ighiz Inn Resort",
-      "detail_url": "https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview",
-      "location": "Nearby - Forkan Mosque, Garden Boutalamine",
-      "review_scores": {
-        "rating": 8.0,
-        "count": 379
-      },
-      "price": "$40",
-      "rooms": [
-        {
-          "room_type": "Double or Twin Room with Garden View",
-          "price": 40.0,
-          "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        },
-        {
-          "room_type": "Two-Bedroom Bungalow",
-          "price": 60.0,
-          "bed_configuration": null,
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        }
-      ],
-      "amenities": [
-        "Restaurant",
-        "Free Wi-Fi",
-        "Free parking",
-        "Business center",
-        "Wi-Fi available in all areas",
-        "Flat-screen TV",
-        "TV",
-        "Free toiletries",
-        "Child pool",
-        "Meeting/Banquet facilities"
-      ]
-    },
-    {
-      "hotel_name": "HN Home House with air conditioning garage included Free",
-      "detail_url": "https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview",
-      "location": "Nearby - Forkan Mosque, Errachidia Chamber of Commerce",
-      "review_scores": {
-        "rating": 8.5,
-        "count": 3
-      },
-      "price": "$30",
-      "rooms": [
-        {
-          "room_type": "Three-Bedroom Apartment",
-          "price": 30.0,
-          "bed_configuration": null,
-          "cancellation_policy": "Free cancellation",
-          "board_type": null,
-          "special_conditions": []
-        }
-      ],
-      "amenities": [
+        "City view",
         "Kitchen",
-        "Kitchenette",
-        "Terrace/Patio",
-        "Balcony",
         "Air-conditioned",
         "Coffee machine",
+        "Laundry facilities",
+        "Washing machine",
         "Linens",
         "Towels",
         "Flat-screen TV",
@@ -130,88 +144,252 @@
       ]
     },
     {
-      "hotel_name": "Maison Vallée Du Ziz",
-      "detail_url": "https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview",
-      "location": "Nearby - Errachidia Chamber of Commerce, Forkan Mosque",
+      "hotel_name": "Hotel Duo",
+      "detail_url": "https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
       "review_scores": {
-        "rating": 9.2,
-        "count": 171
+        "rating": 8.5,
+        "count": 1294
       },
-      "price": "$62",
+      "price": "$201",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/83/c3/24/expedia_group-157713-140240959-376568.jpg?width=1020&height=1020&xhint=500&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Lounge view of Hotel Duo",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/50/38/db/expedia_group-157713-b1b759-165811.jpg?width=1020&height=1020&xhint=1040&yhint=669&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Hotel Duo",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/2d/99/57/expediav2-157713-6506da-767106.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Lounge view of Hotel Duo",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/3f/cb/87/expedia_group-157713-da6a1e-226643.jpg?width=1020&height=1020&xhint=960&yhint=666&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Hotel Duo",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/97/6d/03/expedia_group-157713-185129970-403178.jpg?width=1020&height=1020&xhint=520&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Lounge view of Hotel Duo",
+          "type": "detail"
+        }
+      ],
       "rooms": [
         {
-          "room_type": "Deluxe Double or Twin Room",
-          "price": 62.0,
+          "room_type": "Standard Double Room 14m2",
+          "price": 201.0,
           "bed_configuration": "1 double bed",
-          "cancellation_policy": "Free cancellation",
+          "cancellation_policy": null,
           "board_type": "Free breakfast",
+          "special_conditions": []
+        },
+        {
+          "room_type": "Standard Twin Room 14m2",
+          "price": 212.0,
+          "bed_configuration": "2 twin beds",
+          "cancellation_policy": "Free cancellation",
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Superior Twin Room",
+          "price": 222.0,
+          "bed_configuration": "2 twin beds",
+          "cancellation_policy": "Free cancellation",
+          "board_type": null,
           "special_conditions": []
         },
         {
           "room_type": "Superior Double Room",
-          "price": 65.0,
+          "price": 222.0,
           "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
+          "board_type": null,
           "special_conditions": []
         },
         {
-          "room_type": "Triple Room",
-          "price": 85.0,
-          "bed_configuration": null,
+          "room_type": "Double Room - Ground Floor 16m2",
+          "price": 246.0,
+          "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
+          "board_type": null,
           "special_conditions": []
         },
         {
-          "room_type": "Family Room",
-          "price": 114.0,
+          "room_type": "Other deals",
+          "price": 188.0,
           "bed_configuration": null,
-          "cancellation_policy": "Free cancellation",
+          "cancellation_policy": null,
           "board_type": "Free breakfast",
           "special_conditions": []
         }
       ],
       "amenities": [
-        "Adults only",
-        "Outdoor pool",
-        "Restaurant",
+        "Fitness center",
+        "Bar/Lounge",
         "Room service",
         "Free Wi-Fi",
-        "Free parking",
-        "Shuttle service (free)",
-        "Free toiletries",
-        "Child pool",
-        "Airport shuttle"
+        "Tea/coffee maker",
+        "Coffee machine",
+        "Wi-Fi available in all areas",
+        "Flat-screen TV",
+        "TV",
+        "Cable or satellite TV"
       ]
     },
     {
-      "hotel_name": "Résidence Sehrawilocation",
-      "detail_url": "https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview",
-      "location": "Nearby - Garden Boutalamine, Forkan Mosque",
+      "hotel_name": "D'win",
+      "detail_url": "https://www.kayak.com/hotels/Dwin,Paris-p37687-h2014819-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
       "review_scores": {
-        "rating": 9.0,
-        "count": 2
+        "rating": null,
+        "count": null
       },
-      "price": "$22",
+      "price": "$116",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/c2/fc/76/expedia_group-2014819-92526552-850116.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Dining room view of D'win",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/3a/7f/4e/expedia_group-2014819-7e0f67-104203.jpg?width=1020&height=1020&xhint=500&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of D'win",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/87/9d/dc/leonardo-2150816-37399_Room52_O-348303.jpg?width=1020&height=1020&xhint=532&yhint=296&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of D'win",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/4a/17/f4/expedia_group-2014819-262fac-898669.jpg?width=1020&height=1020&xhint=480&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Front desk view of D'win",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/0e/bf/c0/expedia_group-2014819-1b2cf0-835139.jpg?width=1020&height=1020&xhint=540&yhint=333&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bedroom view of D'win",
+          "type": "detail"
+        }
+      ],
       "rooms": [
         {
-          "room_type": "All deals",
-          "price": 22.0,
-          "bed_configuration": null,
+          "room_type": "Superior Double Room",
+          "price": 116.0,
+          "bed_configuration": "1 double bed",
+          "cancellation_policy": "Free cancellation",
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Deluxe Double Room",
+          "price": 127.0,
+          "bed_configuration": "1 double bed",
+          "cancellation_policy": "Free cancellation",
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Comfort Double Room",
+          "price": 134.0,
+          "bed_configuration": "1 double bed",
           "cancellation_policy": "Free cancellation",
           "board_type": null,
           "special_conditions": []
         }
       ],
       "amenities": [
-        "Kitchen",
-        "Terrace/Patio",
-        "Balcony",
+        "Bar/Lounge",
+        "Room service",
+        "Free Wi-Fi",
+        "Wi-Fi available in all areas",
         "Flat-screen TV",
-        "Pets allowed on request. Charges may apply.",
-        "Free parking",
-        "Garden view"
+        "TV",
+        "Cable or satellite TV",
+        "Free toiletries",
+        "Internet",
+        "Pets allowed on request. Charges may apply."
+      ]
+    },
+    {
+      "hotel_name": "Marais Lovely",
+      "detail_url": "https://www.kayak.com/hotels/Marais-Lovely,Paris-p37687-h2349406-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview",
+      "location": "0.1 mi from Paris, France",
+      "review_scores": {
+        "rating": 8.7,
+        "count": 465
+      },
+      "price": "$144",
+      "images": [
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/8b/c3/4d/ostrovok-2349406-e0f8c2-685406.jpg?width=1020&height=1020&xhint=552&yhint=340&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Dining room view of Marais Lovely",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/03/ba/c3/ostrovok-2349406-efe33f-610471.jpg?width=1020&height=1020&xhint=255&yhint=568&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Building view of Marais Lovely",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/e8/71/56/ostrovok-2349406-9158c8-669353.jpg?width=1020&height=1020&xhint=552&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of Marais Lovely",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/a4/38/d7/ostrovok-2349406-d9fa67-690608.jpg?width=1020&height=1020&xhint=552&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Bathroom view of Marais Lovely",
+          "type": "detail"
+        },
+        {
+          "url": "https://content.r9cdn.net/rimg/himg/d4/03/1a/ostrovok-2349406-75f29d-674940.jpg?width=1020&height=1020&xhint=512&yhint=341&crop=true&watermarkheight=28&watermarkpadding=10",
+          "alt": "Living room view of Marais Lovely",
+          "type": "detail"
+        }
+      ],
+      "rooms": [
+        {
+          "room_type": "Studio",
+          "price": 144.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Apartment HOTEL DE VILLE",
+          "price": 184.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        },
+        {
+          "room_type": "Apartment NOTRE DAME",
+          "price": 236.0,
+          "bed_configuration": null,
+          "cancellation_policy": null,
+          "board_type": null,
+          "special_conditions": []
+        }
+      ],
+      "amenities": [
+        "Kitchen",
+        "Air-conditioned",
+        "Coffee machine",
+        "Washing machine",
+        "Tumble dryer",
+        "Towels",
+        "Flat-screen TV",
+        "TV",
+        "Free toiletries",
+        "Internet"
       ]
     }
   ],
@@ -220,8 +398,8 @@
     "total_pages": 1
   },
   "metadata": {
-    "scraping_date": "2025-01-01",
-    "scraping_time": "21:22",
+    "scraping_date": "2025-01-02",
+    "scraping_time": "15:40",
     "source_url": "https://www.kayak.com/hotels"
   }
 }

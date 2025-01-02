@@ -41,7 +41,7 @@ class KayakHotelScraper:
         check_in = self.check_in_date.strftime('%Y-%m-%d')
         check_out = self.check_out_date.strftime('%Y-%m-%d')
         city_formatted = self.city.replace(' ', '-')
-        return f"{self.base_url}/{city_formatted}-c52508/{check_in}/{check_out}/2adults?sort=rank_a"
+        return f"{self.base_url}/{city_formatted}/{check_in}/{check_out}/2adults?sort=rank_a"
 
     def handle_popups(self):
         try:
@@ -185,37 +185,50 @@ class KayakHotelScraper:
         """Extract all amenities from the detail page"""
         amenities = []
         try:
-            # Scroll to load amenities section
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(2)
-            
-            # Get all amenity categories
-            category_containers = self.driver.find_elements(By.CSS_SELECTOR, '.kml-col-12-12.kml-col-6-12-m')
-            
-            for container in category_containers:
+            # First find the amenities section
+            amenities_section = wait_for_element(self.driver, '.tYfO[data-section-name="amenities"]')
+            if not amenities_section:
+                self.logger.warning("Amenities section not found")
+                return []
+
+            # Scroll to amenities section
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", amenities_section)
+            time.sleep(2)  # Wait for any dynamic content to load
+
+            # First get the initial visible amenities
+            amenity_elements = self.driver.find_elements(By.CSS_SELECTOR, '.tYfO-amenity-name')
+            for elem in amenity_elements:
                 try:
-                    category_name_elem = container.find_element(By.CSS_SELECTOR, '.BxLB-category-name')
-                    category = category_name_elem.text.strip() if category_name_elem else None
-                    
-                    if category:
-                        # Get all amenities in this category
-                        amenity_elements = container.find_elements(By.CSS_SELECTOR, '.BxLB-amenity-name')
-                        for elem in amenity_elements:
+                    amenity = elem.text.strip()
+                    if amenity and amenity not in amenities:
+                        amenities.append(amenity)
+                except:
+                    continue
+
+            # Try to click "Show all amenities" button if it exists
+            try:
+                show_all_button = wait_for_element(self.driver, '.Iqt3-mod-variant-outline')
+                if show_all_button and "Show all" in show_all_button.text:
+                    show_all_button.click()
+                    time.sleep(2)  # Wait for modal to open
+
+                    # Now get all amenities from the modal
+                    modal_amenities = self.driver.find_elements(By.CSS_SELECTOR, '.BxLB-amenity-name, .tYfO-amenity-name')
+                    for elem in modal_amenities:
+                        try:
                             amenity = elem.text.strip()
                             if amenity and amenity not in amenities:
                                 amenities.append(amenity)
-                except:
-                    continue
-            
-            # Also get amenities from the top summary section
-            top_amenities = self.driver.find_elements(By.CSS_SELECTOR, '.t8Xi-amenity-name')
-            for elem in top_amenities:
-                amenity = elem.text.strip()
-                if amenity and amenity not in amenities:
-                    amenities.append(amenity)
-                    
+                        except:
+                            continue
+
+            except Exception as e:
+                self.logger.debug(f"Could not expand all amenities: {str(e)}")
+                # Continue with already collected amenities
+
+            self.logger.info(f"Successfully extracted {len(amenities)} amenities")
             return amenities
-                    
+
         except Exception as e:
             self.logger.error(f"Error extracting amenities: {str(e)}")
             return []
@@ -228,6 +241,12 @@ class KayakHotelScraper:
                 return {}
             
             details = {}
+            
+            # Extract detail page images
+            images = self.extract_detail_page_images()
+            if images:
+                details['images'] = images  # Store images directly in details
+                self.logger.info(f"Found {len(images)} detail images")
             
             # Extract rooms
             rooms = self.extract_room_details()
@@ -247,9 +266,8 @@ class KayakHotelScraper:
             self.logger.error(f"Error extracting hotel details: {str(e)}")
             return {}
 
- 
     def extract_hotel_basic_info(self, hotel_element):
-        """Extract basic hotel information"""
+        """Extract basic hotel information (without images)"""
         try:
             info = {}
             
@@ -283,11 +301,163 @@ class KayakHotelScraper:
             except:
                 info['price'] = None
             
+            # Initialize empty images array
+            info['images'] = []
+                    
             return info
-            
+                
         except Exception as e:
             self.logger.error(f"Error extracting basic hotel info: {str(e)}")
             return None
+
+
+    def extract_detail_page_images(self):
+        """Extract all images from hotel detail page"""
+        detail_images = []
+        try:
+            # Wait for the photo container to be present
+            photo_container = wait_for_element(self.driver, '.c1E0k-photo-container')
+            if not photo_container:
+                self.logger.warning("Detail page photo container not found")
+                return []
+
+            # Get all photo items
+            photo_items = self.driver.find_elements(By.CSS_SELECTOR, '.f800.f800-mod-pres-default')
+            
+            for item in photo_items:
+                try:
+                    img_elem = item.find_element(By.CSS_SELECTOR, '.f800-image')
+                    src = img_elem.get_attribute('src')
+                    alt = img_elem.get_attribute('alt')
+                    
+                    if src and src not in [img['url'] for img in detail_images]:
+                        detail_images.append({
+                            'url': src,
+                            'alt': alt,
+                            'type': 'detail'
+                        })
+                except:
+                    continue
+
+            self.logger.info(f"Successfully extracted {len(detail_images)} images from detail page")
+            return detail_images
+
+        except Exception as e:
+            self.logger.error(f"Error extracting detail page images: {str(e)}")
+            return []
+
+
+
+
+    def extract_hotel_images(self, hotel_element):
+        """Extract all available hotel images from search result"""
+        images = []
+        try:
+            # Find the photo container directly under the hotel element
+            photo_container = hotel_element.find_element(By.CSS_SELECTOR, '.e9fk-photoContainer')
+            if not photo_container:
+                self.logger.warning("Photo container not found")
+                return []
+
+            # Get the photo wrap element
+            photo_wrap = photo_container.find_element(By.CSS_SELECTOR, '.e9fk-photoWrap')
+            if not photo_wrap:
+                self.logger.warning("Photo wrap not found")
+                return []
+
+            # Try both direct img and picture element approaches
+            try:
+                img_elem = photo_wrap.find_element(By.CSS_SELECTOR, 'img.e9fk-photo')
+                if img_elem:
+                    # Get main image src and alt
+                    src = img_elem.get_attribute('src')
+                    alt = img_elem.get_attribute('alt')
+                    if src:
+                        images.append({
+                            'url': src,
+                            'alt': alt,
+                            'type': 'main'
+                        })
+
+                    # Get additional sizes from srcset
+                    srcset = img_elem.get_attribute('srcset')
+                    if srcset:
+                        for src_entry in srcset.split(','):
+                            src_parts = src_entry.strip().split(' ')
+                            if len(src_parts) >= 1:
+                                url = src_parts[0]
+                                if url and url not in [img['url'] for img in images]:
+                                    images.append({
+                                        'url': url,
+                                        'alt': alt,
+                                        'type': 'high_res'
+                                    })
+            except:
+                self.logger.debug("No direct img element found, trying picture element")
+
+            # Try picture element approach
+            try:
+                picture_elem = photo_wrap.find_element(By.CSS_SELECTOR, 'picture')
+                if picture_elem:
+                    # Get source elements
+                    source_elements = picture_elem.find_elements(By.CSS_SELECTOR, 'source')
+                    for source in source_elements:
+                        srcset = source.get_attribute('srcset')
+                        if srcset and srcset.strip() not in [img['url'] for img in images]:
+                            images.append({
+                                'url': srcset.strip(),
+                                'alt': None,
+                                'type': 'mobile'
+                            })
+            except:
+                self.logger.debug("No picture element found")
+
+            if images:
+                self.logger.info(f"Successfully extracted {len(images)} images from search page")
+            else:
+                self.logger.warning("No images found on search page")
+                
+            return images
+
+        except Exception as e:
+            self.logger.error(f"Error in extract_hotel_images: {str(e)}")
+            return []
+
+
+    def extract_detail_page_images(self):
+        """Extract all images from hotel detail page"""
+        detail_images = []
+        try:
+            # Wait for the photo container to be present
+            photo_container = wait_for_element(self.driver, '.c1E0k-photo-container')
+            if not photo_container:
+                self.logger.warning("Detail page photo container not found")
+                return []
+
+            # Get all photo items
+            photo_items = self.driver.find_elements(By.CSS_SELECTOR, '.f800.f800-mod-pres-default')
+            
+            for item in photo_items:
+                try:
+                    img_elem = item.find_element(By.CSS_SELECTOR, '.f800-image')
+                    src = img_elem.get_attribute('src')
+                    alt = img_elem.get_attribute('alt')
+                    
+                    if src and src not in [img['url'] for img in detail_images]:
+                        detail_images.append({
+                            'url': src,
+                            'alt': alt,
+                            'type': 'detail'
+                        })
+                except:
+                    continue
+
+            self.logger.info(f"Successfully extracted {len(detail_images)} images from detail page")
+            return detail_images
+
+        except Exception as e:
+            self.logger.error(f"Error extracting detail page images: {str(e)}")
+            return []
 
     def scrape_hotels(self, limit=None):
         """Main method to scrape hotel information"""
@@ -309,37 +479,11 @@ class KayakHotelScraper:
             hotels_to_process = []
             for hotel_element in hotel_elements[:limit]:
                 try:
-                    info = {}
-                    # Extract hotel name and URL
-                    name_elem = hotel_element.find_element(By.CSS_SELECTOR, HOTEL_NAME)
-                    if name_elem:
-                        info['hotel_name'] = name_elem.text.strip()
-                        info['detail_url'] = name_elem.get_attribute('href')
-                    
-                    # Extract location
-                    location_elem = hotel_element.find_element(By.CSS_SELECTOR, HOTEL_LOCATION)
-                    if location_elem:
-                        info['location'] = location_elem.text.strip()
-                    
-                    # Extract rating and reviews
-                    try:
-                        rating_elem = hotel_element.find_element(By.CSS_SELECTOR, HOTEL_RATING)
-                        reviews_elem = hotel_element.find_element(By.CSS_SELECTOR, HOTEL_REVIEWS)
-                        
-                        info['review_scores'] = {
-                            'rating': float(rating_elem.text.strip()),
-                            'count': int(''.join(filter(str.isdigit, reviews_elem.text)))
-                        }
-                    except:
-                        info['review_scores'] = {'rating': None, 'count': None}
-                    
-                    # Extract price
-                    price_elem = hotel_element.find_element(By.CSS_SELECTOR, PRICE_AMOUNT)
-                    if price_elem:
-                        info['price'] = price_elem.text.strip()
-                    
-                    if info.get('detail_url'):
+                    # Use our new method to extract all basic info including images
+                    info = self.extract_hotel_basic_info(hotel_element)
+                    if info and info.get('detail_url'):
                         hotels_to_process.append(info)
+                        self.logger.info(f"Extracted basic info for: {info.get('hotel_name', 'Unknown hotel')}")
                     
                 except Exception as e:
                     self.logger.error(f"Error extracting basic hotel info: {str(e)}")
@@ -348,8 +492,11 @@ class KayakHotelScraper:
             # Now process each hotel's details
             for hotel_info in hotels_to_process:
                 try:
-                    # Get detailed info
+                    # Get detailed info including detail page images
                     details = self.extract_hotel_details(hotel_info['detail_url'])
+                    if details.get('detail_images'):
+                        # Add detail images to the images array
+                        hotel_info['images'].extend(details.pop('detail_images'))
                     hotel_info.update(details)
                     self.hotels_data.append(hotel_info)
                     
@@ -367,6 +514,8 @@ class KayakHotelScraper:
         except Exception as e:
             self.logger.error(f"Error in scrape_hotels: {str(e)}")
             return []
+
+
 
     def format_output(self):
         """Format the scraped data into the desired structure"""

@@ -1075,145 +1075,604 @@ Stacktrace:
 2024-12-31 14:32:16,703 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
 2024-12-31 14:32:54,667 [INFO] Data saved successfully to data/hotel_data.json
 2024-12-31 14:32:56,433 [INFO] WebDriver closed successfully
-2025-01-01 19:42:39,980 [INFO] WebDriver initialized successfully
-2025-01-01 19:42:40,008 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:43:35,650 [INFO] Found 28 hotels
-2025-01-01 19:43:43,508 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:43:43,516 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:44:15,716 [INFO] Found 4 room elements
-2025-01-01 19:44:16,911 [INFO] Successfully extracted room: Standard Double Room
-2025-01-01 19:44:18,082 [INFO] Successfully extracted room: Twin Room with Garden View
-2025-01-01 19:44:20,229 [INFO] Successfully extracted room: Standard Triple Room
-2025-01-01 19:44:32,371 [INFO] Successfully extracted room: Classic Quadruple Room
-2025-01-01 19:44:32,377 [INFO] Found 4 room types
-2025-01-01 19:46:24,893 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:47:05,764 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:47:05,767 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:47:36,003 [INFO] Found 1 room elements
-2025-01-01 19:47:37,891 [INFO] Successfully extracted room: Three-Bedroom Apartment
-2025-01-01 19:47:37,893 [INFO] Found 1 room types
-2025-01-01 19:49:30,293 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:50:06,980 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:50:06,982 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:50:37,348 [INFO] Found 2 room elements
-2025-01-01 19:50:38,595 [INFO] Successfully extracted room: Double or Twin Room with Garden View
-2025-01-01 19:50:40,353 [INFO] Successfully extracted room: Two-Bedroom Bungalow
-2025-01-01 19:50:40,403 [INFO] Found 2 room types
-2025-01-01 19:52:32,904 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:53:12,189 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:53:12,191 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:53:42,790 [INFO] Found 4 room elements
-2025-01-01 19:53:45,535 [INFO] Successfully extracted room: Deluxe Double or Twin Room
-2025-01-01 19:53:46,740 [INFO] Successfully extracted room: Superior Double Room
-2025-01-01 19:53:48,645 [INFO] Successfully extracted room: Triple Room
-2025-01-01 19:53:50,449 [INFO] Successfully extracted room: Family Room
-2025-01-01 19:53:50,453 [INFO] Found 4 room types
-2025-01-01 19:55:42,912 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:56:27,571 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:56:27,575 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=edFkHncbjC&pm=daybase#overview
-2025-01-01 19:57:00,697 [INFO] Found 1 room elements
-2025-01-01 19:57:11,902 [INFO] Successfully extracted room: All deals
-2025-01-01 19:57:11,905 [INFO] Found 1 room types
-2025-01-01 19:58:34,578 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 19:59:16,302 [INFO] Data saved successfully to data/hotel_data.json
-2025-01-01 19:59:17,311 [INFO] WebDriver closed successfully
-2025-01-01 21:07:19,757 [INFO] WebDriver initialized successfully
-2025-01-01 21:07:19,761 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:08:06,550 [INFO] Found 28 hotels
-2025-01-01 21:08:11,666 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:08:11,670 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:08:40,859 [INFO] Found 4 room elements
-2025-01-01 21:08:42,022 [INFO] Successfully extracted room: Standard Double Room
-2025-01-01 21:08:43,150 [INFO] Successfully extracted room: Twin Room with Garden View
-2025-01-01 21:08:45,088 [INFO] Successfully extracted room: Standard Triple Room
-2025-01-01 21:08:56,918 [INFO] Successfully extracted room: Classic Quadruple Room
-2025-01-01 21:08:56,920 [INFO] Found 4 room types
-2025-01-01 21:10:40,432 [INFO] Found 10 amenities
-2025-01-01 21:10:40,434 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:11:16,967 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:11:16,970 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:11:46,429 [INFO] Found 2 room elements
-2025-01-01 21:11:47,623 [INFO] Successfully extracted room: Double or Twin Room with Garden View
-2025-01-01 21:11:49,297 [INFO] Successfully extracted room: Two-Bedroom Bungalow
-2025-01-01 21:11:49,298 [INFO] Found 2 room types
-2025-01-01 21:13:32,184 [INFO] Found 10 amenities
-2025-01-01 21:13:32,187 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:14:09,663 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:14:09,665 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:14:38,833 [INFO] Found 1 room elements
-2025-01-01 21:14:40,550 [INFO] Successfully extracted room: Three-Bedroom Apartment
-2025-01-01 21:14:40,552 [INFO] Found 1 room types
-2025-01-01 21:16:23,400 [INFO] Found 10 amenities
-2025-01-01 21:16:23,402 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:17:01,682 [INFO] Loading detail page: https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:17:01,684 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Maison-Vallee-Du-Ziz,Errachidia-p170319-h2021191-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:17:31,458 [INFO] Found 4 room elements
-2025-01-01 21:17:32,803 [INFO] Successfully extracted room: Deluxe Double or Twin Room
-2025-01-01 21:17:34,118 [INFO] Successfully extracted room: Superior Double Room
-2025-01-01 21:17:35,934 [INFO] Successfully extracted room: Triple Room
-2025-01-01 21:17:37,815 [INFO] Successfully extracted room: Family Room
-2025-01-01 21:17:37,823 [INFO] Found 4 room types
-2025-01-01 21:19:20,742 [INFO] Found 10 amenities
-2025-01-01 21:19:20,744 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:19:57,802 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:19:57,816 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=egGkB1Y6uM&pm=daybase#overview
-2025-01-01 21:20:27,432 [INFO] Found 1 room elements
-2025-01-01 21:20:38,601 [INFO] Successfully extracted room: All deals
-2025-01-01 21:20:38,603 [INFO] Found 1 room types
-2025-01-01 21:21:51,054 [INFO] Found 7 amenities
-2025-01-01 21:21:51,056 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 21:22:27,425 [INFO] Data saved successfully to data/hotel_data.json
-2025-01-01 21:22:28,671 [INFO] WebDriver closed successfully
-2025-01-01 22:38:43,495 [INFO] WebDriver initialized successfully
-2025-01-01 22:38:43,500 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Canada-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:39:32,054 [INFO] Found 28 hotels
-2025-01-01 22:39:39,756 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejGkG6lrUe&pm=daybase#overview
-2025-01-01 22:39:39,770 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejGkG6lrUe&pm=daybase#overview
-2025-01-01 22:40:15,752 [INFO] Found 2 room elements
-2025-01-01 22:40:17,299 [INFO] Successfully extracted room: Double or Twin Room with Garden View
-2025-01-01 22:40:19,012 [INFO] Successfully extracted room: Two-Bedroom Bungalow
-2025-01-01 22:40:19,013 [INFO] Found 2 room types
-2025-01-01 22:41:35,312 [ERROR] Error extracting amenities: HTTPConnectionPool(host='localhost', port=47413): Max retries exceeded with url: /session/343a50f5ab5faefc3ebf0497b1da4606/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff412ec9010>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-01 22:41:35,322 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Canada-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:41:35,335 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=47413): Max retries exceeded with url: /session/343a50f5ab5faefc3ebf0497b1da4606/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff412ecbd90>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-01 22:41:36,355 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Canada-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:41:36,467 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=47413): Max retries exceeded with url: /session/343a50f5ab5faefc3ebf0497b1da4606/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff412eba3d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-2025-01-01 22:43:28,729 [INFO] WebDriver initialized successfully
-2025-01-01 22:43:28,733 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:44:22,760 [INFO] Found 28 hotels
-2025-01-01 22:44:35,264 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:44:35,271 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:45:09,456 [INFO] Found 2 room elements
-2025-01-01 22:45:10,721 [INFO] Successfully extracted room: Double or Twin Room with Garden View
-2025-01-01 22:45:12,658 [INFO] Successfully extracted room: Two-Bedroom Bungalow
-2025-01-01 22:45:12,661 [INFO] Found 2 room types
-2025-01-01 22:47:05,112 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:47:51,805 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:47:51,807 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:48:27,636 [INFO] Found 4 room elements
-2025-01-01 22:48:31,448 [INFO] Successfully extracted room: Standard Double Room
-2025-01-01 22:48:33,140 [INFO] Successfully extracted room: Twin Room with Garden View
-2025-01-01 22:48:36,854 [INFO] Successfully extracted room: Standard Triple Room
-2025-01-01 22:48:49,077 [INFO] Successfully extracted room: Classic Quadruple Room
-2025-01-01 22:48:49,079 [INFO] Found 4 room types
-2025-01-01 22:50:41,633 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:51:28,010 [INFO] Loading detail page: https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:51:28,016 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:52:02,954 [INFO] Found 1 room elements
-2025-01-01 22:52:14,186 [INFO] Successfully extracted room: All deals
-2025-01-01 22:52:14,197 [INFO] Found 1 room types
-2025-01-01 22:54:06,669 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:54:50,289 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:54:50,300 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:55:21,831 [INFO] Found 1 room elements
-2025-01-01 22:55:23,640 [INFO] Successfully extracted room: Three-Bedroom Apartment
-2025-01-01 22:55:23,642 [INFO] Found 1 room types
-2025-01-01 22:57:16,358 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 22:57:57,438 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:57:57,441 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejEkK9dOl6&pm=daybase#overview
-2025-01-01 22:58:28,558 [INFO] Found 1 room elements
-2025-01-01 22:58:39,829 [INFO] Successfully extracted room: All deals
-2025-01-01 22:58:39,836 [INFO] Found 1 room types
-2025-01-01 23:00:02,151 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
-2025-01-01 23:00:46,116 [INFO] Data saved successfully to data/hotel_data.json
-2025-01-01 23:00:48,654 [INFO] WebDriver closed successfully
+2025-01-01 22:47:15,556 [INFO] WebDriver initialized successfully
+2025-01-01 22:47:15,581 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 22:47:59,229 [INFO] Found 28 hotels
+2025-01-01 22:48:01,448 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:48:01,450 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:48:33,419 [INFO] Found 2 room elements
+2025-01-01 22:48:34,850 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 22:48:36,717 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 22:48:36,718 [INFO] Found 2 room types
+2025-01-01 22:50:29,233 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 22:51:03,137 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:51:03,141 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:51:33,675 [INFO] Found 4 room elements
+2025-01-01 22:51:34,945 [INFO] Successfully extracted room: Standard Double Room
+2025-01-01 22:51:36,061 [INFO] Successfully extracted room: Twin Room with Garden View
+2025-01-01 22:51:37,950 [INFO] Successfully extracted room: Standard Triple Room
+2025-01-01 22:51:49,689 [INFO] Successfully extracted room: Classic Quadruple Room
+2025-01-01 22:51:49,705 [INFO] Found 4 room types
+2025-01-01 22:53:42,394 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 22:54:15,704 [INFO] Loading detail page: https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:54:15,716 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:54:44,996 [INFO] Found 1 room elements
+2025-01-01 22:54:56,158 [INFO] Successfully extracted room: All deals
+2025-01-01 22:54:56,161 [INFO] Found 1 room types
+2025-01-01 22:56:48,534 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 22:57:23,968 [INFO] Loading detail page: https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:57:23,986 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Residence-Sehrawilocation,Errachidia-p170319-h1071194442-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 22:57:54,823 [INFO] Found 1 room elements
+2025-01-01 22:58:06,009 [INFO] Successfully extracted room: All deals
+2025-01-01 22:58:06,017 [INFO] Found 1 room types
+2025-01-01 22:59:28,413 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:00:08,834 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 23:00:08,854 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ejEkPMULoK&pm=daybase#overview
+2025-01-01 23:00:39,604 [INFO] Found 1 room elements
+2025-01-01 23:00:41,597 [INFO] Successfully extracted room: Three-Bedroom Apartment
+2025-01-01 23:00:41,604 [INFO] Found 1 room types
+2025-01-01 23:02:33,940 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:03:11,786 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:03:13,507 [INFO] WebDriver closed successfully
+2025-01-01 23:08:34,039 [INFO] WebDriver initialized successfully
+2025-01-01 23:08:34,053 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:09:16,085 [INFO] Found 28 hotels
+2025-01-01 23:09:19,210 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:09:19,215 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:09:50,207 [INFO] Found 2 room elements
+2025-01-01 23:09:51,517 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:09:53,179 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 23:09:53,183 [INFO] Found 2 room types
+2025-01-01 23:10:07,071 [ERROR] Error extracting amenities: HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b35dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:07,079 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:07,089 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b22ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:08,093 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:08,098 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b2b010>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:10,102 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:10,110 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b350d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:11,545 [INFO] Loading detail page: https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:11,547 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:11,552 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b39650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:12,555 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:12,563 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b28490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:14,566 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Kasbah-Hotel-Camping-Jurassique,Errachidia-p170319-h542701-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:14,572 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b22c90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:14,578 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:14,587 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b3a190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:15,590 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:15,596 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b48a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:17,599 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:17,603 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766e9a8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:19,486 [INFO] Loading detail page: https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:19,488 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:19,500 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b28f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:20,505 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:20,510 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b49610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:22,519 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Luna-del-fuego,Errachidia-p170319-h2991366-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:22,523 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b50090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:22,525 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:22,532 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b34690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:23,535 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:23,546 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b20c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:25,551 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:25,558 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766cc9850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:26,951 [INFO] Loading detail page: https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:26,953 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:26,957 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b52c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:27,960 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:27,965 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766e9a150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:29,991 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/HN-Home-House-with-air-conditioning-garage-included-Free,Errachidia-p170319-h1071217711-details/2025-01-10/2025-01-14/2adults?psid=ekEkTL1bbM&pm=daybase#overview
+2025-01-01 23:10:30,053 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b49a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:30,059 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:30,069 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b50490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:31,084 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:31,090 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b65490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:33,092 [INFO] Loading URL (attempt 3): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:10:33,104 [ERROR] Error loading page (attempt 3): HTTPConnectionPool(host='localhost', port=42011): Max retries exceeded with url: /session/1697058e3b5485f1103aa97a6e2204b0/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0766b48c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-01 23:10:34,450 [INFO] WebDriver closed successfully
+2025-01-01 23:11:12,002 [INFO] WebDriver initialized successfully
+2025-01-01 23:11:12,016 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:11:49,902 [INFO] Found 28 hotels
+2025-01-01 23:11:50,566 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEEIGpmTc&pm=daybase#overview
+2025-01-01 23:11:50,576 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEEIGpmTc&pm=daybase#overview
+2025-01-01 23:12:22,250 [INFO] Found 2 room elements
+2025-01-01 23:12:23,651 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:12:26,036 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 23:12:26,052 [INFO] Found 2 room types
+2025-01-01 23:14:18,525 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:15:00,740 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:15:01,017 [INFO] WebDriver closed successfully
+2025-01-01 23:17:27,560 [INFO] WebDriver initialized successfully
+2025-01-01 23:17:27,573 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:18:05,481 [INFO] Found 28 hotels
+2025-01-01 23:18:05,971 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEEMNB8IA&pm=daybase#overview
+2025-01-01 23:18:05,974 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ekEEMNB8IA&pm=daybase#overview
+2025-01-01 23:18:44,042 [INFO] Found 2 room elements
+2025-01-01 23:18:45,326 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:18:47,032 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 23:18:47,034 [INFO] Found 2 room types
+2025-01-01 23:20:39,833 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:21:21,799 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:21:22,057 [INFO] WebDriver closed successfully
+2025-01-01 23:32:14,358 [INFO] WebDriver initialized successfully
+2025-01-01 23:32:14,379 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:32:54,606 [INFO] Found 28 hotels
+2025-01-01 23:33:05,078 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.e9fk-photoWrap"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55dd80230dbe <unknown>
+#1 0x55dd7fd5406b <unknown>
+#2 0x55dd7fd9b160 <unknown>
+#3 0x55dd7fd9b241 <unknown>
+#4 0x55dd7fd91836 <unknown>
+#5 0x55dd7fdc2b0d <unknown>
+#6 0x55dd7fd9174e <unknown>
+#7 0x55dd7fdc2c6e <unknown>
+#8 0x55dd7fddf63e <unknown>
+#9 0x55dd7fdc2863 <unknown>
+#10 0x55dd7fd8f517 <unknown>
+#11 0x55dd7fd902b2 <unknown>
+#12 0x55dd802045ba <unknown>
+#13 0x55dd8020796e <unknown>
+#14 0x55dd802073e8 <unknown>
+#15 0x55dd80207df5 <unknown>
+#16 0x55dd801f4f92 <unknown>
+#17 0x55dd80208161 <unknown>
+#18 0x55dd801dde39 <unknown>
+#19 0x55dd80220db5 <unknown>
+#20 0x55dd80220f9b <unknown>
+#21 0x55dd8022ff15 <unknown>
+#22 0x7f136e82d1c4 <unknown>
+
+2025-01-01 23:33:05,091 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-01 23:33:05,093 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elEEJC-Xls&pm=daybase#overview
+2025-01-01 23:33:05,103 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elEEJC-Xls&pm=daybase#overview
+2025-01-01 23:33:35,365 [INFO] Found 1 room elements
+2025-01-01 23:33:36,626 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:33:36,630 [INFO] Found 1 room types
+2025-01-01 23:35:19,676 [INFO] Found 10 amenities
+2025-01-01 23:35:19,721 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:35:56,945 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:35:58,326 [INFO] WebDriver closed successfully
+2025-01-01 23:41:30,269 [INFO] WebDriver initialized successfully
+2025-01-01 23:41:30,284 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:42:08,126 [INFO] Found 28 hotels
+2025-01-01 23:42:18,807 [WARNING] Photo wrap not found
+2025-01-01 23:42:18,810 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-01 23:42:18,813 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elGEO5Ks7N&pm=daybase#overview
+2025-01-01 23:42:18,815 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elGEO5Ks7N&pm=daybase#overview
+2025-01-01 23:42:49,899 [INFO] Found 2 room elements
+2025-01-01 23:42:51,125 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:42:52,935 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 23:42:52,938 [INFO] Found 2 room types
+2025-01-01 23:44:45,566 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:45:25,064 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-01 23:45:25,877 [INFO] WebDriver closed successfully
+2025-01-01 23:52:37,975 [INFO] WebDriver initialized successfully
+2025-01-01 23:52:38,088 [INFO] WebDriver closed successfully
+2025-01-01 23:56:38,039 [INFO] WebDriver initialized successfully
+2025-01-01 23:56:38,065 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-01 23:57:14,849 [INFO] Found 28 hotels
+2025-01-01 23:57:25,470 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":"picture"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55629a4e4dbe <unknown>
+#1 0x55629a00806b <unknown>
+#2 0x55629a04f160 <unknown>
+#3 0x55629a04f241 <unknown>
+#4 0x55629a045836 <unknown>
+#5 0x55629a076b0d <unknown>
+#6 0x55629a04574e <unknown>
+#7 0x55629a076c6e <unknown>
+#8 0x55629a09363e <unknown>
+#9 0x55629a076863 <unknown>
+#10 0x55629a043517 <unknown>
+#11 0x55629a0442b2 <unknown>
+#12 0x55629a4b85ba <unknown>
+#13 0x55629a4bb96e <unknown>
+#14 0x55629a4bb3e8 <unknown>
+#15 0x55629a4bbdf5 <unknown>
+#16 0x55629a4a8f92 <unknown>
+#17 0x55629a4bc161 <unknown>
+#18 0x55629a491e39 <unknown>
+#19 0x55629a4d4db5 <unknown>
+#20 0x55629a4d4f9b <unknown>
+#21 0x55629a4e3f15 <unknown>
+#22 0x7f735e8f51c4 <unknown>
+
+2025-01-01 23:57:25,481 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-01 23:57:25,489 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elHkAhDeHL&pm=daybase#overview
+2025-01-01 23:57:25,497 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elHkAhDeHL&pm=daybase#overview
+2025-01-01 23:57:54,295 [INFO] Successfully extracted 5 images from detail page
+2025-01-01 23:57:54,312 [INFO] Found 5 detail images
+2025-01-01 23:57:56,403 [INFO] Found 2 room elements
+2025-01-01 23:57:57,881 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-01 23:58:00,037 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-01 23:58:00,040 [INFO] Found 2 room types
+2025-01-02 13:04:22,441 [INFO] WebDriver initialized successfully
+2025-01-02 13:04:22,444 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:04:56,061 [INFO] Found 28 hotels
+2025-01-02 13:05:06,568 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":"picture"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5597d1c7bdbe <unknown>
+#1 0x5597d179f06b <unknown>
+#2 0x5597d17e6160 <unknown>
+#3 0x5597d17e6241 <unknown>
+#4 0x5597d17dc836 <unknown>
+#5 0x5597d180db0d <unknown>
+#6 0x5597d17dc74e <unknown>
+#7 0x5597d180dc6e <unknown>
+#8 0x5597d182a63e <unknown>
+#9 0x5597d180d863 <unknown>
+#10 0x5597d17da517 <unknown>
+#11 0x5597d17db2b2 <unknown>
+#12 0x5597d1c4f5ba <unknown>
+#13 0x5597d1c5296e <unknown>
+#14 0x5597d1c523e8 <unknown>
+#15 0x5597d1c52df5 <unknown>
+#16 0x5597d1c3ff92 <unknown>
+#17 0x5597d1c53161 <unknown>
+#18 0x5597d1c28e39 <unknown>
+#19 0x5597d1c6bdb5 <unknown>
+#20 0x5597d1c6bf9b <unknown>
+#21 0x5597d1c7af15 <unknown>
+#22 0x7fbd268fe1c4 <unknown>
+
+2025-01-02 13:05:06,571 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:05:06,575 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQGEByWAEu&pm=daybase#overview
+2025-01-02 13:05:06,577 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQGEByWAEu&pm=daybase#overview
+2025-01-02 13:05:38,780 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 13:05:38,801 [INFO] Found 5 detail images
+2025-01-02 13:05:40,871 [INFO] Found 2 room elements
+2025-01-02 13:05:42,098 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 13:05:43,860 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 13:05:43,864 [INFO] Found 2 room types
+2025-01-02 13:07:36,291 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:08:10,246 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 13:08:10,610 [INFO] WebDriver closed successfully
+2025-01-02 13:15:00,818 [INFO] WebDriver initialized successfully
+2025-01-02 13:15:00,826 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:15:39,138 [INFO] Found 28 hotels
+2025-01-02 13:15:49,345 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":".e9fk-photoWrap"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x563392239dbe <unknown>
+#1 0x563391d5d06b <unknown>
+#2 0x563391da4160 <unknown>
+#3 0x563391da4241 <unknown>
+#4 0x563391d9a836 <unknown>
+#5 0x563391dcbb0d <unknown>
+#6 0x563391d9a74e <unknown>
+#7 0x563391dcbc6e <unknown>
+#8 0x563391de863e <unknown>
+#9 0x563391dcb863 <unknown>
+#10 0x563391d98517 <unknown>
+#11 0x563391d992b2 <unknown>
+#12 0x56339220d5ba <unknown>
+#13 0x56339221096e <unknown>
+#14 0x5633922103e8 <unknown>
+#15 0x563392210df5 <unknown>
+#16 0x5633921fdf92 <unknown>
+#17 0x563392211161 <unknown>
+#18 0x5633921e6e39 <unknown>
+#19 0x563392229db5 <unknown>
+#20 0x563392229f9b <unknown>
+#21 0x563392238f15 <unknown>
+#22 0x7f49831321c4 <unknown>
+
+2025-01-02 13:15:49,351 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:15:49,354 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQGkCPfJW7&pm=daybase#overview
+2025-01-02 13:15:49,356 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eQGkCPfJW7&pm=daybase#overview
+2025-01-02 13:16:18,889 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 13:16:18,897 [INFO] Found 5 detail images
+2025-01-02 13:16:21,251 [INFO] Found 2 room elements
+2025-01-02 13:16:26,179 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 13:16:28,098 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 13:16:28,100 [INFO] Found 2 room types
+2025-01-02 13:18:20,650 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:19:02,269 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 13:19:02,621 [INFO] WebDriver closed successfully
+2025-01-02 13:34:06,499 [INFO] WebDriver initialized successfully
+2025-01-02 13:34:06,612 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:34:39,868 [INFO] Found 28 hotels
+2025-01-02 13:34:50,216 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":".e9fk-photoWrap"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x557528fd4dbe <unknown>
+#1 0x557528af806b <unknown>
+#2 0x557528b3f160 <unknown>
+#3 0x557528b3f241 <unknown>
+#4 0x557528b35836 <unknown>
+#5 0x557528b66b0d <unknown>
+#6 0x557528b3574e <unknown>
+#7 0x557528b66c6e <unknown>
+#8 0x557528b8363e <unknown>
+#9 0x557528b66863 <unknown>
+#10 0x557528b33517 <unknown>
+#11 0x557528b342b2 <unknown>
+#12 0x557528fa85ba <unknown>
+#13 0x557528fab96e <unknown>
+#14 0x557528fab3e8 <unknown>
+#15 0x557528fabdf5 <unknown>
+#16 0x557528f98f92 <unknown>
+#17 0x557528fac161 <unknown>
+#18 0x557528f81e39 <unknown>
+#19 0x557528fc4db5 <unknown>
+#20 0x557528fc4f9b <unknown>
+#21 0x557528fd3f15 <unknown>
+#22 0x7f9bf2ca11c4 <unknown>
+
+2025-01-02 13:34:50,225 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:34:50,227 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRFkJ5vJsu&pm=daybase#overview
+2025-01-02 13:34:50,228 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRFkJ5vJsu&pm=daybase#overview
+2025-01-02 13:35:19,078 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 13:35:19,080 [INFO] Found 5 detail images
+2025-01-02 13:35:21,147 [INFO] Found 2 room elements
+2025-01-02 13:35:22,741 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 13:35:24,442 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 13:35:24,446 [INFO] Found 2 room types
+2025-01-02 13:37:16,887 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:37:51,838 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 13:37:52,509 [INFO] WebDriver closed successfully
+2025-01-02 13:40:12,941 [INFO] WebDriver initialized successfully
+2025-01-02 13:40:12,958 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:40:46,388 [INFO] Found 28 hotels
+2025-01-02 13:40:56,738 [ERROR] Error in extract_hotel_images: Message: no such element: Unable to locate element: {"method":"css selector","selector":".e9fk-photoWrap"}
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x560c495e7dbe <unknown>
+#1 0x560c4910b06b <unknown>
+#2 0x560c49152160 <unknown>
+#3 0x560c49152241 <unknown>
+#4 0x560c49148836 <unknown>
+#5 0x560c49179b0d <unknown>
+#6 0x560c4914874e <unknown>
+#7 0x560c49179c6e <unknown>
+#8 0x560c4919663e <unknown>
+#9 0x560c49179863 <unknown>
+#10 0x560c49146517 <unknown>
+#11 0x560c491472b2 <unknown>
+#12 0x560c495bb5ba <unknown>
+#13 0x560c495be96e <unknown>
+#14 0x560c495be3e8 <unknown>
+#15 0x560c495bedf5 <unknown>
+#16 0x560c495abf92 <unknown>
+#17 0x560c495bf161 <unknown>
+#18 0x560c49594e39 <unknown>
+#19 0x560c495d7db5 <unknown>
+#20 0x560c495d7f9b <unknown>
+#21 0x560c495e6f15 <unknown>
+#22 0x7fcd3b88d1c4 <unknown>
+
+2025-01-02 13:40:56,742 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:40:56,745 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eREkFOueEb&pm=daybase#overview
+2025-01-02 13:40:56,749 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eREkFOueEb&pm=daybase#overview
+2025-01-02 13:41:02,480 [ERROR] Error loading page (attempt 1): HTTPConnectionPool(host='localhost', port=58681): Max retries exceeded with url: /session/74ef9678c8d71e5a3ed79e243750b601/execute/sync (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb5e3172410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-02 13:41:03,514 [INFO] Loading URL (attempt 2): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eREkFOueEb&pm=daybase#overview
+2025-01-02 13:41:03,522 [ERROR] Error loading page (attempt 2): HTTPConnectionPool(host='localhost', port=58681): Max retries exceeded with url: /session/74ef9678c8d71e5a3ed79e243750b601/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb5e31797d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-02 13:42:19,288 [INFO] WebDriver initialized successfully
+2025-01-02 13:42:19,304 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:42:55,216 [INFO] Found 28 hotels
+2025-01-02 13:42:55,437 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:42:55,442 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGkCgZzS0&pm=daybase#overview
+2025-01-02 13:42:55,449 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRGkCgZzS0&pm=daybase#overview
+2025-01-02 13:43:32,520 [WARNING] Detail page photo container not found
+2025-01-02 13:43:34,607 [INFO] Found 2 room elements
+2025-01-02 13:43:35,798 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 13:43:37,591 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 13:43:37,592 [INFO] Found 2 room types
+2025-01-02 13:45:20,389 [INFO] Found 10 amenities
+2025-01-02 13:45:20,424 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:45:57,980 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 13:45:58,455 [INFO] WebDriver closed successfully
+2025-01-02 13:45:59,865 [INFO] WebDriver initialized successfully
+2025-01-02 13:45:59,867 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:46:33,855 [INFO] Found 28 hotels
+2025-01-02 13:46:34,125 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 13:46:34,127 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRFkSM5_DE&pm=daybase#overview
+2025-01-02 13:46:34,130 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eRFkSM5_DE&pm=daybase#overview
+2025-01-02 13:47:03,366 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 13:47:03,387 [INFO] Found 5 detail images
+2025-01-02 13:47:05,461 [INFO] Found 2 room elements
+2025-01-02 13:47:06,648 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 13:47:08,246 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 13:47:08,248 [INFO] Found 2 room types
+2025-01-02 13:49:00,614 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 13:49:34,761 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 13:49:34,925 [INFO] WebDriver closed successfully
+2025-01-02 14:02:26,833 [INFO] WebDriver initialized successfully
+2025-01-02 14:02:26,843 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 14:03:04,329 [INFO] Found 28 hotels
+2025-01-02 14:03:04,520 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 14:03:04,522 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eSFEK5e8fX&pm=daybase#overview
+2025-01-02 14:03:04,525 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eSFEK5e8fX&pm=daybase#overview
+2025-01-02 14:03:34,086 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 14:03:34,103 [INFO] Found 5 detail images
+2025-01-02 14:03:36,167 [INFO] Found 2 room elements
+2025-01-02 14:03:37,602 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 14:03:39,209 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 14:03:39,216 [INFO] Found 2 room types
+2025-01-02 14:05:31,825 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 14:06:05,570 [INFO] WebDriver closed successfully
+2025-01-02 14:56:32,915 [INFO] WebDriver initialized successfully
+2025-01-02 14:56:32,935 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 14:57:15,079 [INFO] Found 28 hotels
+2025-01-02 14:57:15,327 [INFO] Extracted basic info for: Ighiz Inn Resort
+2025-01-02 14:57:15,328 [INFO] Loading detail page: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eTGEFDRXr2&pm=daybase#overview
+2025-01-02 14:57:15,332 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=eTGEFDRXr2&pm=daybase#overview
+2025-01-02 14:57:45,598 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 14:57:45,617 [INFO] Found 5 detail images
+2025-01-02 14:57:47,798 [INFO] Found 2 room elements
+2025-01-02 14:57:49,103 [INFO] Successfully extracted room: Double or Twin Room with Garden View
+2025-01-02 14:57:51,157 [INFO] Successfully extracted room: Two-Bedroom Bungalow
+2025-01-02 14:57:51,162 [INFO] Found 2 room types
+2025-01-02 14:57:54,485 [INFO] Successfully extracted 10 amenities
+2025-01-02 14:57:54,633 [INFO] Found 10 amenities
+2025-01-02 14:57:54,637 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 14:58:36,767 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 14:58:37,949 [INFO] WebDriver closed successfully
+2025-01-02 14:58:56,970 [INFO] WebDriver initialized successfully
+2025-01-02 14:58:56,983 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 14:59:36,318 [INFO] Found 29 hotels
+2025-01-02 14:59:56,555 [INFO] Extracted basic info for: Vacayo Affordable East Side Apartments
+2025-01-02 14:59:56,570 [INFO] Loading detail page: https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eTEESYmnWR&pm=daybase#overview
+2025-01-02 14:59:56,572 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eTEESYmnWR&pm=daybase#overview
+2025-01-02 15:00:36,130 [WARNING] Detail page photo container not found
+2025-01-02 15:00:48,169 [INFO] Found 0 room elements
+2025-01-02 15:00:58,202 [WARNING] Amenities section not found
+2025-01-02 15:00:58,226 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:01:32,396 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 15:01:33,362 [INFO] WebDriver closed successfully
+2025-01-02 15:03:40,072 [INFO] WebDriver initialized successfully
+2025-01-02 15:03:40,085 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:03:42,711 [INFO] WebDriver closed successfully
+2025-01-02 15:03:55,012 [INFO] WebDriver initialized successfully
+2025-01-02 15:03:55,015 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:04:27,961 [INFO] Found 29 hotels
+2025-01-02 15:04:48,187 [INFO] Extracted basic info for: Vacayo Affordable East Side Apartments
+2025-01-02 15:05:08,347 [INFO] Extracted basic info for: Financial District 1bd/1ba Manhattan Apartment
+2025-01-02 15:05:28,436 [INFO] Extracted basic info for: Midtown Lodging
+2025-01-02 15:05:28,642 [INFO] Extracted basic info for: The Beekman, A Thompson Hotel
+2025-01-02 15:05:48,772 [INFO] Extracted basic info for: 4BR in Manhattan
+2025-01-02 15:05:48,775 [INFO] Loading detail page: https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:05:48,779 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:06:29,819 [WARNING] Detail page photo container not found
+2025-01-02 15:06:41,876 [INFO] Found 0 room elements
+2025-01-02 15:06:51,909 [WARNING] Amenities section not found
+2025-01-02 15:06:51,912 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:07:26,106 [INFO] Loading detail page: https://www.kayak.com/hotels/Financial-District-1bd1ba-Manhattan-Apartment,New-York-p59560-h8734744-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:07:26,125 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Financial-District-1bd1ba-Manhattan-Apartment,New-York-p59560-h8734744-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:07:54,778 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:07:54,793 [INFO] Found 5 detail images
+2025-01-02 15:08:06,833 [INFO] Found 0 room elements
+2025-01-02 15:08:11,271 [INFO] Successfully extracted 7 amenities
+2025-01-02 15:08:11,274 [INFO] Found 7 amenities
+2025-01-02 15:08:11,277 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:08:43,713 [INFO] Loading detail page: https://www.kayak.com/hotels/Midtown-Lodging,New-York-p59560-h1070237896-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:08:43,730 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Midtown-Lodging,New-York-p59560-h1070237896-details/2025-01-10/2025-01-14/2adults?psid=eUFkD-16mO&pm=daybase#overview
+2025-01-02 15:09:21,163 [WARNING] Detail page photo container not found
+2025-01-02 15:09:33,278 [INFO] Found 0 room elements
+2025-01-02 15:09:45,378 [INFO] Successfully extracted 1 amenities
+2025-01-02 15:09:45,393 [INFO] Found 1 amenities
+2025-01-02 15:09:45,397 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:20:39,217 [INFO] WebDriver initialized successfully
+2025-01-02 15:20:39,225 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:21:14,205 [INFO] Found 29 hotels
+2025-01-02 15:21:34,626 [INFO] Extracted basic info for: Vacayo Affordable East Side Apartments
+2025-01-02 15:21:55,234 [INFO] Extracted basic info for: Financial District 1bd/1ba Manhattan Apartment
+2025-01-02 15:22:17,935 [INFO] Extracted basic info for: Midtown Lodging
+2025-01-02 15:22:18,130 [INFO] Extracted basic info for: The Beekman, A Thompson Hotel
+2025-01-02 15:22:38,265 [INFO] Extracted basic info for: 4BR in Manhattan
+2025-01-02 15:22:38,271 [INFO] Loading detail page: https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:22:38,277 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:23:19,259 [WARNING] Detail page photo container not found
+2025-01-02 15:23:31,294 [INFO] Found 0 room elements
+2025-01-02 15:23:41,344 [WARNING] Amenities section not found
+2025-01-02 15:23:41,347 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:24:19,471 [INFO] Loading detail page: https://www.kayak.com/hotels/Financial-District-1bd1ba-Manhattan-Apartment,New-York-p59560-h8734744-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:24:19,474 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Financial-District-1bd1ba-Manhattan-Apartment,New-York-p59560-h8734744-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:24:49,366 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:24:49,377 [INFO] Found 5 detail images
+2025-01-02 15:25:01,595 [INFO] Found 0 room elements
+2025-01-02 15:25:06,150 [INFO] Successfully extracted 7 amenities
+2025-01-02 15:25:06,153 [INFO] Found 7 amenities
+2025-01-02 15:25:06,164 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:25:51,797 [INFO] Loading detail page: https://www.kayak.com/hotels/Midtown-Lodging,New-York-p59560-h1070237896-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:25:51,801 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Midtown-Lodging,New-York-p59560-h1070237896-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:26:29,662 [WARNING] Detail page photo container not found
+2025-01-02 15:26:41,735 [INFO] Found 0 room elements
+2025-01-02 15:26:53,880 [INFO] Successfully extracted 1 amenities
+2025-01-02 15:26:53,887 [INFO] Found 1 amenities
+2025-01-02 15:26:53,889 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:27:32,845 [INFO] Loading detail page: https://www.kayak.com/hotels/The-Beekman,A-Thompson-Hotel,New-York-p59560-h2495608-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:27:32,849 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/The-Beekman,A-Thompson-Hotel,New-York-p59560-h2495608-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:28:02,000 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:28:02,011 [INFO] Found 5 detail images
+2025-01-02 15:28:04,074 [INFO] Found 3 room elements
+2025-01-02 15:28:05,260 [INFO] Successfully extracted room: Queen Room
+2025-01-02 15:28:16,916 [INFO] Successfully extracted room: Queen Room with Two Queen Beds
+2025-01-02 15:28:38,011 [INFO] Successfully extracted room: Other deals
+2025-01-02 15:28:38,017 [INFO] Found 3 room types
+2025-01-02 15:28:42,561 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:28:42,563 [INFO] Found 10 amenities
+2025-01-02 15:28:42,567 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:29:23,025 [INFO] Loading detail page: https://www.kayak.com/hotels/4BR-in-Manhattan,New-York-p59560-h10167025-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:29:23,030 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/4BR-in-Manhattan,New-York-p59560-h10167025-details/2025-01-10/2025-01-14/2adults?psid=eUEEKuKx0h&pm=daybase#overview
+2025-01-02 15:30:01,260 [WARNING] Detail page photo container not found
+2025-01-02 15:30:13,454 [INFO] Found 0 room elements
+2025-01-02 15:30:23,425 [WARNING] Amenities section not found
+2025-01-02 15:30:23,427 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/New-York,-United-States/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:31:05,610 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 15:31:23,745 [INFO] WebDriver initialized successfully
+2025-01-02 15:31:23,747 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:32:00,713 [INFO] Found 29 hotels
+2025-01-02 15:32:10,902 [INFO] Extracted basic info for: Hotel Andrea
+2025-01-02 15:32:11,044 [INFO] Extracted basic info for: Stunning apartment with view at the very heart of Paris
+2025-01-02 15:32:11,222 [INFO] Extracted basic info for: Hotel Duo
+2025-01-02 15:32:21,540 [INFO] Extracted basic info for: D'win
+2025-01-02 15:32:21,699 [INFO] Extracted basic info for: Marais Lovely
+2025-01-02 15:32:21,701 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:32:21,703 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-Andrea,Paris-p37687-h2531807-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:32:52,404 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:32:52,438 [INFO] Found 5 detail images
+2025-01-02 15:32:54,544 [INFO] Found 4 room elements
+2025-01-02 15:32:55,750 [INFO] Successfully extracted room: Deluxe Double Room
+2025-01-02 15:32:57,115 [INFO] Successfully extracted room: Deluxe Double Room with Balcony
+2025-01-02 15:32:58,291 [INFO] Successfully extracted room: Deluxe Double Room, Balcony, Executive Level (top floor)
+2025-01-02 15:33:09,459 [INFO] Successfully extracted room: Other deals
+2025-01-02 15:33:09,462 [INFO] Found 4 room types
+2025-01-02 15:33:13,988 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:33:13,989 [INFO] Found 10 amenities
+2025-01-02 15:33:13,993 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:34:01,171 [INFO] Loading detail page: https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:34:01,187 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Stunning-apartment-with-view-at-the-very-heart-of-Paris,Paris-p37687-h1070433131-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:34:30,468 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:34:30,470 [INFO] Found 5 detail images
+2025-01-02 15:34:32,534 [INFO] Found 1 room elements
+2025-01-02 15:34:53,681 [INFO] Successfully extracted room: All deals
+2025-01-02 15:34:53,684 [INFO] Found 1 room types
+2025-01-02 15:34:58,198 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:34:58,200 [INFO] Found 10 amenities
+2025-01-02 15:34:58,203 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:35:44,337 [INFO] Loading detail page: https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:35:44,345 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Hotel-Duo,Paris-p37687-h157713-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:36:13,872 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:36:13,874 [INFO] Found 5 detail images
+2025-01-02 15:36:15,946 [INFO] Found 6 room elements
+2025-01-02 15:36:17,108 [INFO] Successfully extracted room: Standard Double Room 14m2
+2025-01-02 15:36:18,241 [INFO] Successfully extracted room: Standard Twin Room 14m2
+2025-01-02 15:36:19,371 [INFO] Successfully extracted room: Superior Twin Room
+2025-01-02 15:36:20,485 [INFO] Successfully extracted room: Superior Double Room
+2025-01-02 15:36:21,625 [INFO] Successfully extracted room: Double Room - Ground Floor 16m2
+2025-01-02 15:36:32,779 [INFO] Successfully extracted room: Other deals
+2025-01-02 15:36:32,781 [INFO] Found 6 room types
+2025-01-02 15:36:37,294 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:36:37,297 [INFO] Found 10 amenities
+2025-01-02 15:36:37,300 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:37:20,458 [INFO] Loading detail page: https://www.kayak.com/hotels/Dwin,Paris-p37687-h2014819-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:37:20,460 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Dwin,Paris-p37687-h2014819-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:37:49,675 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:37:49,677 [INFO] Found 5 detail images
+2025-01-02 15:37:51,737 [INFO] Found 3 room elements
+2025-01-02 15:37:53,136 [INFO] Successfully extracted room: Superior Double Room
+2025-01-02 15:37:54,299 [INFO] Successfully extracted room: Deluxe Double Room
+2025-01-02 15:37:55,460 [INFO] Successfully extracted room: Comfort Double Room
+2025-01-02 15:37:55,461 [INFO] Found 3 room types
+2025-01-02 15:38:00,004 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:38:00,008 [INFO] Found 10 amenities
+2025-01-02 15:38:00,011 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:38:44,708 [INFO] Loading detail page: https://www.kayak.com/hotels/Marais-Lovely,Paris-p37687-h2349406-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:38:44,713 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Marais-Lovely,Paris-p37687-h2349406-details/2025-01-10/2025-01-14/2adults?psid=eVGkA6x6lV&pm=daybase#overview
+2025-01-02 15:39:13,225 [INFO] Successfully extracted 5 images from detail page
+2025-01-02 15:39:13,228 [INFO] Found 5 detail images
+2025-01-02 15:39:15,307 [INFO] Found 3 room elements
+2025-01-02 15:39:26,903 [INFO] Successfully extracted room: Studio
+2025-01-02 15:39:38,472 [INFO] Successfully extracted room: Apartment HOTEL DE VILLE
+2025-01-02 15:39:50,106 [INFO] Successfully extracted room: Apartment NOTRE DAME
+2025-01-02 15:39:50,109 [INFO] Found 3 room types
+2025-01-02 15:39:54,627 [INFO] Successfully extracted 10 amenities
+2025-01-02 15:39:54,629 [INFO] Found 10 amenities
+2025-01-02 15:39:54,632 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Paris,-France/2025-01-10/2025-01-14/2adults?sort=rank_a
+2025-01-02 15:40:37,803 [INFO] Data saved successfully to data/hotel_data.json
+2025-01-02 15:40:38,542 [INFO] WebDriver closed successfully
